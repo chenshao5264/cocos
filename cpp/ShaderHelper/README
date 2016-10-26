@@ -1,0 +1,21 @@
+Shader 工具
+目前只有模糊效果
+
+.fsh 采用cpp-tests
+
+采用组合模式
+非直接创建精灵
+
+#CustomEffect 
+local eff = uu.CustomEffect:create("res/Shaders/example_Blur.fsh")
+local glprogramState = eff:getGLProgramState()
+local size = sp:getTexture():getContentSizeInPixels()
+glprogramState:setUniformVec2("resolution", cc.p(size.width, size.height));
+glprogramState:setUniformFloat("blurRadius", 10.0);
+glprogramState:setUniformFloat("sampleNum", 2.0);
+uu.ShaderHelper:setEffect(sp, eff)
+
+
+ps
+setUniformVec2()
+第二个参数需要cc.p(x, y) 包装

@@ -1,0 +1,77 @@
+--
+-- Author: ChenShao
+-- Date: 2016-09-04 18:46:12
+--
+
+local gamefsm = import(".GameFSM").new()
+
+local GameViewController = class("GameViewController", function()
+	return display.newNode()
+end)
+
+function GameViewController:ctor()
+	self.gameView = app:createViewWithFullViewName("app.fsm.GameView", gamefsm)
+	:addTo(self)
+
+	cc.ui.UIPushButton.new("Button01.png", {scale9 = true})
+        :setButtonSize(200, 80)
+        :setButtonLabel(cc.ui.UILabel.new({text = "init"}))
+        :onButtonPressed(function(event)
+            event.target:setScale(1.1)
+        end)
+        :onButtonRelease(function(event)
+            event.target:setScale(1.0)
+        end)
+        :onButtonClicked(function()
+        	gamefsm:init()
+        end)
+        :pos(display.cx, display.cy + 300)
+        :addTo(self)
+
+    cc.ui.UIPushButton.new("Button01.png", {scale9 = true})
+        :setButtonSize(200, 80)
+        :setButtonLabel(cc.ui.UILabel.new({text = "toBet"}))
+        :onButtonPressed(function(event)
+            event.target:setScale(1.1)
+        end)
+        :onButtonRelease(function(event)
+            event.target:setScale(1.0)
+        end)
+        :onButtonClicked(function()
+        	gamefsm:toBet()
+        end)
+        :pos(display.cx, display.cy + 150)
+        :addTo(self)
+
+    cc.ui.UIPushButton.new("Button01.png", {scale9 = true})
+        :setButtonSize(200, 80)
+        :setButtonLabel(cc.ui.UILabel.new({text = "toDeal"}))
+        :onButtonPressed(function(event)
+            event.target:setScale(1.1)
+        end)
+        :onButtonRelease(function(event)
+            event.target:setScale(1.0)
+        end)
+        :onButtonClicked(function()
+        	gamefsm:toDeal()
+        end)
+        :pos(display.cx , display.cy)
+        :addTo(self)
+
+    cc.ui.UIPushButton.new("Button01.png", {scale9 = true})
+        :setButtonSize(200, 80)
+        :setButtonLabel(cc.ui.UILabel.new({text = "toSettle"}))
+        :onButtonPressed(function(event)
+            event.target:setScale(1.1)
+        end)
+        :onButtonRelease(function(event)
+            event.target:setScale(1.0)
+        end)
+        :onButtonClicked(function()
+        	gamefsm:toSettle()
+        end)
+        :pos(display.cx, display.cy - 150)
+        :addTo(self)
+end
+
+return GameViewController
