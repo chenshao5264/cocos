@@ -1,0 +1,38 @@
+//
+//  IappayHelper.h
+//  zebra
+//
+//  Created by 辰少 on 16/8/10.
+//
+//
+
+#import <Foundation/Foundation.h>
+
+#import <IapppayKit/IapppayOrderUtils.h>
+#import <IapppayKit/IapppayKit.h>
+
+//商户在爱贝注册的应用ID
+//static NSString *mOrderUtilsAppId = @"3001766206";
+static NSString *mOrderUtilsAppId = @"3008158414";
+
+//渠道号
+static NSString *mOrderUtilsChannel = @"123456";
+
+//支付结果后台回调地址
+static NSString *mOrderUtilsNotifyurl = @"http://192.168.0.140:8094/monizhuang/api?type=100";
+
+//商户验签公钥
+//static NSString *mOrderUtilsCheckResultKey = @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGPSpOsrVjkToNkbtNOOg1xY41RDwhb4QXU6ZHzzPilpiI9PovmoHWE+4iLee//1LBZbajK/Ayxvyx7MlZRBSGWfjHhONOan8FVBuQXKo+TJ9eAc7shcCEyq2g1QsxoQHw9sVICPtNMMJsrqoBi1hJKstVrKj0fREXYc2i5ls5CwIDAQAB";
+
+static NSString *mOrderUtilsCheckResultKey = @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCeDzCNFdZBjQHbGCpUwcS7l1x07/L2YPlozj7GEBFAeraIWG01lRWrwboeiLqcnemWytetsTDyxw4vERFnmRZvVRhbR4N0XFxqpvef+tgUUKZtw0AcJt9AEQ2eYWDn5DAyoTMo6JJtfTsZ9ZLJFXz/ElG+AWLqtqBUsYuuAvVRGQIDAQAB";
+
+//商户在爱贝注册的应用ID对应的应用私钥
+//static NSString *mOrderUtilsCpPrivateKey = @"MIICXQIBAAKBgQCrP7MzE/PxUktqGM9C5vq+07/62ICpM+IdYf6M2mCze6llUg1nzYUsx9jB9RQIhHNPYOE8PG64mz4/HrIwC4iGeizOEJa7EISSnJzccnPr8NqRzNc0WZau66Ut6leVOySC16O0D+05JGHb3kA2I40lg/qmOHw+WilU3OLehsaB4wIDAQABAoGBAI6eOmurjlnII650gwhAvUr3pscOT/iakRHPbuN3a1mO/4C2WRu9+c9VkJvXs5t0U2QkVvCHk96Cy9BdjCCfOk8GNDzDSXG9NKczSn22hfsj280ODKmitX8eC2SeJF/YgCSh8F8gkyc4KRvfT7JlZUFM2jT/Y5pCHJ1wcWYE5nshAkEA5x/XbIIJMH/iOI2BPtPcUr1WRyduuPNtERaHjWWg3kuDTs1/gQ/7qbxSxbq01W1srl+Ub4dlLSaX8aDB5YXLbQJBAL2uHEKHmpkzjaBLiczjk17kn/spqqbG25/vRxEDTK//mpteS74msTPzshGeiysnegLcVPZWaz6Ton913PYlYI8CQEVCZnTOtuBAwlK+HMfuBu0Ibe1epLBpyfo/7RjzJnTW3h9kN1w+pOSlWYyFOaFnbBUI8VtGkIwqL4gp61DTejUCQQCLUro7O/OYmD9tAE8lifuTdgb0q3RHsEVdwpnGq0/G7s6XVLn5393FNTkUrAm5FvQN6d0WW//GJRb03JQC0Q2NAkAQUsWtDTYaE+IsWzVj00h55IKhBF0ERqo2OmMAnDLC9svpZnLzsa08VxNN1vRp+PjvudeDYKv2/uXX//Qq1izx";
+
+static NSString *mOrderUtilsCpPrivateKey = @"MIICXAIBAAKBgQCzWbTlMale9L/PhEeVdoB3Wcr6MuLyy17hp/OoCBg2M6EWYA5hvNVihIkA3N0HEF6aemTj7uLfqlvZzw7NhNYraTFjV1aqaQEP7vFXz45E98j8V9+Ug+a4PTnUzQIG7J63HTHOle6MHsKR2cNNEjQ1qvBhYtFkIKV7dALjhUJ7wwIDAQABAoGAa/12y440gmVyXRw0Eg3RWovpiO888Z582fjL4IBHO9OoihV6c2VFQtW0vJ1ARPGZVQCfYRNE7hHgzmw7aIo0fdrWYV/Ylsr8w6HD2Y/X8DVJt3oIx58f0BEnp8fzU87xaU+xPvsOiPp5Mfb/VT0k7hmeIsbgZ/uPyyhEUX9VrvECQQDehQgSspj+A5sCtnkhF+F3WIMKHc2yhCfzrH4ez7E3+399VazTlUW/V4r0xfCdrNNizQd5Xk66NFNiUPRQCHp5AkEAzlXkDco+CogRwlgUoFldFzbDZ5aSme8qCGhBxikSg4AcuhkOrX6stIgouaHhaxAG3TEEhJhPLw3MC3HQdbXZGwJBAK5bXvAHsYmYGaYOhOtBYxG48TTEFaGDnCp7RneuFhbfog37S+ieVoCPf/o7/0YNXbVVIj4ff2C4D35CIK11d0ECQCHuG99sp4Eh2RHFXDb2GwnLNpzdNORdYOMbCd3lOScotRChODmtgAb78P59sUziyM4s1lpblYHeWfRz1dzVd4sCQACtdPHgJrOijqcVqvbH3bUuRU3IvZYbWwA5FAHD9PoEewsYiU1cRBS4se2B59zvK+c/vcmdstqbTbfH2Fo5Vj4=";
+
+@interface IappayHelper : NSObject
++ (IappayHelper *)getInstance;
+- (void)startPay: (NSString*)trandInfo;
+- (void)setPayResultFunctionID: (int)id;
+@end
