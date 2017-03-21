@@ -1,0 +1,2052 @@
+{
+    "assets": {
+        "res/Default/Button_Disable.png": {
+            "md5": "fa79821349dd686f516187283bc2fb8c",
+            "size": 1111
+        },
+        "res/Default/ImageFile.png": {
+            "md5": "8b8ddbe2391511ba6e05d975dd2d9dba",
+            "size": 1735
+        },
+        "res/Lobby/Card/MainLayer.csb": {
+            "md5": "a7e5c93a86aad2ba9ca4b8e3535e972b",
+            "size": 2980
+        },
+        "res/Lobby/Card/Texture/bt_buy.png": {
+            "md5": "763552c691d5770c1b727f9822f4ac2d",
+            "size": 21382
+        },
+        "res/Lobby/Card/Texture/im_card.png": {
+            "md5": "7421c9dcc0e92517ec95320db334885f",
+            "size": 427693
+        },
+        "res/Lobby/Card/Texture/tt_card.png": {
+            "md5": "0e12bcba73b1a9da85ffc7e84d853e1d",
+            "size": 6079
+        },
+        "res/Lobby/Daily/MainLayer.csb": {
+            "md5": "83587d75c6785888ab8cc8fa943e9c38",
+            "size": 4060
+        },
+        "res/Lobby/Daily/Texture/im_background.png": {
+            "md5": "d616725c5d7dbc15eb0aa0f1811da848",
+            "size": 713076
+        },
+        "res/Lobby/Daily/Texture/im_bubble.png": {
+            "md5": "821401e302693f1a8bad0bee275323c2",
+            "size": 11689
+        },
+        "res/Lobby/Daily/Texture/im_road.png": {
+            "md5": "e8aac326c0770e3f3ecc830b1cf3ea2a",
+            "size": 65990
+        },
+        "res/Lobby/Daily/Texture/im_star.png": {
+            "md5": "b05d8728943ea2bbee683d25d00f7808",
+            "size": 9314
+        },
+        "res/Lobby/Daily/Texture/tt_daily.png": {
+            "md5": "3fe296d466794678c356df3f17bf1a6d",
+            "size": 7563
+        },
+        "res/Lobby/Gift/MainLayer.csb": {
+            "md5": "e98956c7d15b026f8d47e73504b01864",
+            "size": 2980
+        },
+        "res/Lobby/Gift/Texture/bt_buy.png": {
+            "md5": "7df6e5ae74636b00ebc054e3e9b5c70f",
+            "size": 20145
+        },
+        "res/Lobby/Gift/Texture/im_gift.png": {
+            "md5": "cf74bab94158cf6c47b6215897df336f",
+            "size": 461398
+        },
+        "res/Lobby/Gift/Texture/tt_gift.png": {
+            "md5": "942bc0e195af26db2283c9297cef72e2",
+            "size": 7191
+        },
+        "res/Lobby/Lobby/MainLayer.csb": {
+            "md5": "4473b31ca492ef6671c7cff0d05ea274",
+            "size": 17272
+        },
+        "res/Lobby/Lobby/Texture/bt_activity.png": {
+            "md5": "4c8c01cb7e69294aa57eb41fee187a5b",
+            "size": 19896
+        },
+        "res/Lobby/Lobby/Texture/bt_add.png": {
+            "md5": "2c74dd2be036b4f8d0a6cec6fd67db27",
+            "size": 3622
+        },
+        "res/Lobby/Lobby/Texture/bt_adventure.png": {
+            "md5": "edd922f377ded57795acd041346ecedd",
+            "size": 252225
+        },
+        "res/Lobby/Lobby/Texture/bt_card.png": {
+            "md5": "74a16b752d2636abfa946860ab805e42",
+            "size": 16759
+        },
+        "res/Lobby/Lobby/Texture/bt_club.png": {
+            "md5": "bda23296d3465456062580073c98057f",
+            "size": 21226
+        },
+        "res/Lobby/Lobby/Texture/bt_fight.png": {
+            "md5": "012070b6737b8e9440c7a8df430b4317",
+            "size": 119181
+        },
+        "res/Lobby/Lobby/Texture/bt_friend.png": {
+            "md5": "012070b6737b8e9440c7a8df430b4317",
+            "size": 119181
+        },
+        "res/Lobby/Lobby/Texture/bt_gift.png": {
+            "md5": "5ab4378df08c9e1f3dfe64694cca94a4",
+            "size": 18977
+        },
+        "res/Lobby/Lobby/Texture/bt_group.png": {
+            "md5": "825e97a632b13d01402774d884fe487f",
+            "size": 142141
+        },
+        "res/Lobby/Lobby/Texture/bt_mail.png": {
+            "md5": "8c038d1b6bec0b87e568e2b0aade648e",
+            "size": 19117
+        },
+        "res/Lobby/Lobby/Texture/bt_match.png": {
+            "md5": "8f54e4cbc42561276f20b890ab46c539",
+            "size": 363866
+        },
+        "res/Lobby/Lobby/Texture/bt_more.png": {
+            "md5": "f1eecc418c562acf45008e9604ff5e1b",
+            "size": 16218
+        },
+        "res/Lobby/Lobby/Texture/bt_option.png": {
+            "md5": "a250b9a88549e3f5917c58f3c6bc5658",
+            "size": 6491
+        },
+        "res/Lobby/Lobby/Texture/bt_redBag.png": {
+            "md5": "2562fa3c84a86a2db7c95303231930e2",
+            "size": 18688
+        },
+        "res/Lobby/Lobby/Texture/bt_shop.png": {
+            "md5": "f7ee3ae0482a9196378dc1bd4562b22f",
+            "size": 18208
+        },
+        "res/Lobby/Lobby/Texture/bt_task.png": {
+            "md5": "087d24ff44638cf61d8c1e729f950822",
+            "size": 20574
+        },
+        "res/Lobby/Lobby/Texture/icon_dimond.png": {
+            "md5": "ac0d457eb255d703e2444cd46f4f3196",
+            "size": 6214
+        },
+        "res/Lobby/Lobby/Texture/icon_energe.png": {
+            "md5": "0b51fb5a76f80066dee2d1b99af553d1",
+            "size": 6682
+        },
+        "res/Lobby/Lobby/Texture/icon_money.png": {
+            "md5": "2664a831d90c9b624f72c4020d25ad25",
+            "size": 6365
+        },
+        "res/Lobby/Lobby/Texture/im_arrow.png": {
+            "md5": "15fc3659aaa2cccd94643dcc339003dc",
+            "size": 3457
+        },
+        "res/Lobby/Lobby/Texture/im_background.png": {
+            "md5": "d7f0451bfae64ca2a85aedc86e484385",
+            "size": 1315237
+        },
+        "res/Lobby/Lobby/Texture/im_bottom.png": {
+            "md5": "67ebfd748ad7f5d2778a3b10daffb003",
+            "size": 13564
+        },
+        "res/Lobby/Lobby/Texture/im_info.png": {
+            "md5": "e44fb3755d5695a4b6b36ff8a3edb2fa",
+            "size": 11365
+        },
+        "res/Lobby/Lobby/Texture/im_resourse.png": {
+            "md5": "0fdfeacc7ddef7499d08340c008b0605",
+            "size": 8226
+        },
+        "res/Lobby/Login/MainLayer.csb": {
+            "md5": "36cf77812f41732ef5e5cbcf4dde6d04",
+            "size": 4676
+        },
+        "res/Lobby/Login/Texture/bt_qq.png": {
+            "md5": "77160c3f6a153c8b45316a3f417618ae",
+            "size": 90210
+        },
+        "res/Lobby/Login/Texture/bt_weiXin.png": {
+            "md5": "00812182d6497a339511e788545db6b7",
+            "size": 97878
+        },
+        "res/Lobby/Login/Texture/bt_youKe.png": {
+            "md5": "b1f99853669027b2bed5f84d12458a37",
+            "size": 103256
+        },
+        "res/Lobby/Login/Texture/im_background.png": {
+            "md5": "d9548f5bbaa83139e629ae2a1276ab5b",
+            "size": 1285239
+        },
+        "res/Lobby/Login/Texture/im_girl.png": {
+            "md5": "0a649ddf319c8b03efc5868ff85c7b4d",
+            "size": 529968
+        },
+        "res/Lobby/Login/Texture/im_gou.png": {
+            "md5": "6400339f71ebef6f13d91903898d07fb",
+            "size": 1222
+        },
+        "res/Lobby/Login/Texture/im_kuang.png": {
+            "md5": "6b667314de4af8bbd3f5b6e37dd924fa",
+            "size": 1737
+        },
+        "res/Lobby/Login/Texture/tt_xieYi.png": {
+            "md5": "c995e96a5bf039b26a14c50acd7d498f",
+            "size": 1679
+        },
+        "res/Lobby/Login/Texture/tt_yiYueDu.png": {
+            "md5": "35610083d98c8abb59fb710f004a7b12",
+            "size": 3746
+        },
+        "res/Lobby/More/MainLayer.csb": {
+            "md5": "cedb72717e31dd171b8916f2185a2559",
+            "size": 3760
+        },
+        "res/Lobby/More/Texture/bt_daily.png": {
+            "md5": "46290ff3660363e20ba6a2de981e0c0a",
+            "size": 5881
+        },
+        "res/Lobby/More/Texture/bt_friend.png": {
+            "md5": "cc17a385b8fd6ab3cf82a062e430048b",
+            "size": 5759
+        },
+        "res/Lobby/More/Texture/bt_pet.png": {
+            "md5": "b9ce5d70919bd9993360d07739addc8b",
+            "size": 6201
+        },
+        "res/Lobby/More/Texture/bt_rank.png": {
+            "md5": "d4ab7105f165758d4bf627be59f89ac1",
+            "size": 8113
+        },
+        "res/Lobby/More/Texture/im_frame.png": {
+            "md5": "ec2a1e56612d5f398bb20a050f29b01f",
+            "size": 3725
+        },
+        "res/Lobby/MyInfo/MainLayer.csb": {
+            "md5": "d9d8f83e873b57afd1d67e2b055bec87",
+            "size": 9752
+        },
+        "res/Lobby/MyInfo/Texture/bt_changdPhoto.png": {
+            "md5": "84d2b78390aac2d980c516702fb7a530",
+            "size": 17598
+        },
+        "res/Lobby/MyInfo/Texture/bt_changeFrame.png": {
+            "md5": "f060491bc966a045078e2f99eaae93b7",
+            "size": 17623
+        },
+        "res/Lobby/MyInfo/Texture/bt_changeName.png": {
+            "md5": "1b3445b258fd32e7c1bd4974cd7d9663",
+            "size": 17228
+        },
+        "res/Lobby/MyInfo/Texture/bt_myItem.png": {
+            "md5": "c1ada16d749e3cabaaa71c7e27bc5c69",
+            "size": 25462
+        },
+        "res/Lobby/MyInfo/Texture/im_frame.png": {
+            "md5": "97114cf322aa82698dc350293a65a216",
+            "size": 144494
+        },
+        "res/Lobby/MyInfo/Texture/tt_myInfo.png": {
+            "md5": "d8971dff01c74ac2d2d63429df4842c2",
+            "size": 6645
+        },
+        "res/Lobby/Option/MainLayer.csb": {
+            "md5": "e05de3c648da507a161e5d04cb57ce83",
+            "size": 8664
+        },
+        "res/Lobby/Option/Texture/bt_changeAccont.png": {
+            "md5": "9943ec2d700ac26cb9137e99237cc9ab",
+            "size": 26023
+        },
+        "res/Lobby/Option/Texture/bt_changeAccount.png": {
+            "md5": "9943ec2d700ac26cb9137e99237cc9ab",
+            "size": 26023
+        },
+        "res/Lobby/Option/Texture/bt_handle.png": {
+            "md5": "4f215c1f803d6634a2e83d217d2de78f",
+            "size": 5862
+        },
+        "res/Lobby/Option/Texture/bt_help.png": {
+            "md5": "0c20224109dc4f7ead66aeebac0b552c",
+            "size": 23580
+        },
+        "res/Lobby/Option/Texture/bt_service.png": {
+            "md5": "64ed13a62890b9a384c7d3900c0b2482",
+            "size": 23680
+        },
+        "res/Lobby/Option/Texture/im_about.png": {
+            "md5": "be5787b457260d570fb37d7b85daa634",
+            "size": 23581
+        },
+        "res/Lobby/Option/Texture/im_off.png": {
+            "md5": "f5efd6a35d0297ced1eeff1cb080368b",
+            "size": 4315
+        },
+        "res/Lobby/Option/Texture/im_on.png": {
+            "md5": "bf20252a52e7fd31716645217dbf33ab",
+            "size": 4194
+        },
+        "res/Lobby/Option/Texture/tt_music.png": {
+            "md5": "6f58ee526f70d25eadaec4b1607fbb5b",
+            "size": 4372
+        },
+        "res/Lobby/Option/Texture/tt_option.png": {
+            "md5": "c71ed57158fb7875ea2afd95951231fd",
+            "size": 4024
+        },
+        "res/Lobby/Option/Texture/tt_sound.png": {
+            "md5": "be93155403ecbc5b19c93b78e589adb7",
+            "size": 5018
+        },
+        "res/Lobby/Rank/MainLayer.csb": {
+            "md5": "34c74d96a7a675973c930a031b7c5ce2",
+            "size": 10644
+        },
+        "res/Lobby/Rank/Texture/bt_friend1.png": {
+            "md5": "1632fbc746b79403f978a069d999cfc5",
+            "size": 19836
+        },
+        "res/Lobby/Rank/Texture/bt_friend2.png": {
+            "md5": "91b9bb59d22d2ae1555291f5ac0a9650",
+            "size": 20083
+        },
+        "res/Lobby/Rank/Texture/bt_world1.png": {
+            "md5": "d0cab301aa1025c7906fb3ec46f2b84d",
+            "size": 19039
+        },
+        "res/Lobby/Rank/Texture/bt_world2.png": {
+            "md5": "33955f683988460f1b42264d514213e9",
+            "size": 19314
+        },
+        "res/Lobby/Rank/Texture/icon_star.png": {
+            "md5": "1c83d1ce13344bd52dc653296c24dba4",
+            "size": 2632
+        },
+        "res/Lobby/Rank/Texture/im_frame.png": {
+            "md5": "98b20ef6afa7617c56e499fa3ce57787",
+            "size": 76008
+        },
+        "res/Lobby/Rank/Texture/im_no4.png": {
+            "md5": "22af698356b5c5fa002375d83f3b4f34",
+            "size": 875
+        },
+        "res/Lobby/Rank/Texture/im_playerFrame.png": {
+            "md5": "38fdff17d3491970b452861e607029aa",
+            "size": 4037
+        },
+        "res/Lobby/Rank/Texture/tt_adventure.png": {
+            "md5": "19b663fe7617ebf460cf33cc91bef014",
+            "size": 15739
+        },
+        "res/Lobby/Rank/Texture/tt_match.png": {
+            "md5": "62ce6395f93ac10993ed24eaab540de6",
+            "size": 17329
+        },
+        "res/Lobby/Rank/Texture/tt_money.png": {
+            "md5": "71abd179d820839551a51accc1b9ec87",
+            "size": 12347
+        },
+        "res/Lobby/Rank/Texture/tt_ranking.png": {
+            "md5": "d567d5ca78b02d342620ffbcfb726619",
+            "size": 6045
+        },
+        "res/Lobby/RedBag/MainLayer.csb": {
+            "md5": "17f9dcfd060ff48941163579332df5d1",
+            "size": 6112
+        },
+        "res/Lobby/RedBag/Texture/bt_check.png": {
+            "md5": "22824532f69b3997dc53c5b86e4adac5",
+            "size": 25842
+        },
+        "res/Lobby/RedBag/Texture/bt_getRedBag.png": {
+            "md5": "268b1695f29aac94071302791fd62106",
+            "size": 26441
+        },
+        "res/Lobby/RedBag/Texture/bt_sendRedBag.png": {
+            "md5": "919792c03de7eeda6017090e60206e98",
+            "size": 26463
+        },
+        "res/Lobby/RedBag/Texture/im_redBag.png": {
+            "md5": "c70ac020aaf0f49e6b45f0fedcd4e88e",
+            "size": 48152
+        },
+        "res/Lobby/RedBag/Texture/tt_sendAddGet.png": {
+            "md5": "fb689daf7395a2aceb8537a311e5114f",
+            "size": 32282
+        },
+        "res/Lobby/RedBag/Texture/tt_share.png": {
+            "md5": "2641d360570b8c1ef8540ed7a57886ee",
+            "size": 7039
+        },
+        "res/Lobby/RedBag/Texture/tt_text1.png": {
+            "md5": "ef61913ade56c49be8b04fddbd7aeaa3",
+            "size": 9681
+        },
+        "res/Lobby/RedBag/Texture/tt_text2.png": {
+            "md5": "b0517dfd0c11d0172ed02e5d9df6287c",
+            "size": 8790
+        },
+        "res/Lobby/RedBag/Texture/tt_text3.png": {
+            "md5": "8a52e31b2afd9e16693578ade6ec2e8b",
+            "size": 8465
+        },
+        "res/Lobby/SendBag/MainLayer.csb": {
+            "md5": "d78caa4fd31d75688c77b559e3424af1",
+            "size": 4184
+        },
+        "res/Lobby/SendBag/Texture/bt_friend.png": {
+            "md5": "abb492505aae486738944fcff8a65e8a",
+            "size": 39084
+        },
+        "res/Lobby/SendBag/Texture/bt_qq.png": {
+            "md5": "fbbc86a7934b881bd51098bb4d70b3fb",
+            "size": 48120
+        },
+        "res/Lobby/SendBag/Texture/bt_weiBo.png": {
+            "md5": "8a51260a2c2eebc9971036aec7aa732f",
+            "size": 25439
+        },
+        "res/Lobby/SendBag/Texture/bt_weiXin.png": {
+            "md5": "b94ce324cd8dfad2ce1e7b927e05ff00",
+            "size": 35137
+        },
+        "res/Lobby/SendBag/Texture/tt_send.png": {
+            "md5": "db82f98fd0d98bb784e98b2fc81d3f07",
+            "size": 5679
+        },
+        "res/Lobby/Shop/MainLayer.csb": {
+            "md5": "28b7825c68ed81dd2c819ad862053ad7",
+            "size": 11680
+        },
+        "res/Lobby/Shop/Texture/bt_diomond1.png": {
+            "md5": "a04d757012c03a906206a8f1d85e04dc",
+            "size": 17791
+        },
+        "res/Lobby/Shop/Texture/bt_diomond2.png": {
+            "md5": "b66ff1b7c18669836b289b31aee0d60b",
+            "size": 19541
+        },
+        "res/Lobby/Shop/Texture/bt_gold1.png": {
+            "md5": "332611b1cbbc71058e70c6575e65944d",
+            "size": 17830
+        },
+        "res/Lobby/Shop/Texture/bt_gold2.png": {
+            "md5": "32448ce5fed5fca6f5ee4999d9934dbc",
+            "size": 19487
+        },
+        "res/Lobby/Shop/Texture/bt_item1.png": {
+            "md5": "a54fe6b1de30f1c0a593f11a6f0a89e5",
+            "size": 17216
+        },
+        "res/Lobby/Shop/Texture/bt_item2.png": {
+            "md5": "b014f60e983ba04f6d0da25bc8cefa90",
+            "size": 19085
+        },
+        "res/Lobby/Shop/Texture/bt_ornament1.png": {
+            "md5": "ff7dbbdb94dad1c2595cdfedc7bce744",
+            "size": 18027
+        },
+        "res/Lobby/Shop/Texture/bt_ornament2.png": {
+            "md5": "3614509c3c6125028545985517893fb3",
+            "size": 19635
+        },
+        "res/Lobby/Shop/Texture/im_itemFrame.png": {
+            "md5": "78ccbd4afd1cf906d0eae0d2a70d5d9d",
+            "size": 72807
+        },
+        "res/Lobby/Shop/Texture/im_shed.png": {
+            "md5": "d220a93e5b555bfb3d30eef76d5e7d7b",
+            "size": 121600
+        },
+        "res/Lobby/Shop/Texture/im_shelf.png": {
+            "md5": "08371aba3b893dffc9c2ec66220e2e4b",
+            "size": 37141
+        },
+        "res/Lobby/Shop/Texture/im_shopFrame.png": {
+            "md5": "f9be2cd0b746332b0b574e0c70c552db",
+            "size": 98941
+        },
+        "res/Lobby/Shop/Texture/im_title.png": {
+            "md5": "ed8ec0e78ca0de047d22e864bd0af848",
+            "size": 19447
+        },
+        "res/Lobby/Shop/Texture/tt_rmb.png": {
+            "md5": "b177791ad0a26db1d54d9a488392a860",
+            "size": 1327
+        },
+        "res/Lobby/Task/MainLayer.csb": {
+            "md5": "1a95bc7b7579950e97bf76e8be4e8e97",
+            "size": 13752
+        },
+        "res/Lobby/Task/Texture/bt_achievement1.png": {
+            "md5": "4bfe2685f5d97734f0350674ce7bdfef",
+            "size": 19906
+        },
+        "res/Lobby/Task/Texture/bt_achievement2.png": {
+            "md5": "a8c23cff00d8e85d0f8f2ca90fec06f1",
+            "size": 20148
+        },
+        "res/Lobby/Task/Texture/bt_dailyTask1.png": {
+            "md5": "5c605b78d83999971d2c6283dfdb8048",
+            "size": 19174
+        },
+        "res/Lobby/Task/Texture/bt_dailyTask2.png": {
+            "md5": "1c4d9ba5ad67bba8e421060883640fcf",
+            "size": 19531
+        },
+        "res/Lobby/Task/Texture/bt_get.png": {
+            "md5": "001db5f9df77ad6ae5f3414b6c0cb010",
+            "size": 23662
+        },
+        "res/Lobby/Task/Texture/icon_box1.png": {
+            "md5": "59362d45f9200c2bb939f9206d4514c7",
+            "size": 14467
+        },
+        "res/Lobby/Task/Texture/icon_box2.png": {
+            "md5": "8f134ec17571c158c8bad2351eee264a",
+            "size": 11867
+        },
+        "res/Lobby/Task/Texture/icon_box3.png": {
+            "md5": "e58ef1ea91edaa0b5e6bd852d768a0e6",
+            "size": 14166
+        },
+        "res/Lobby/Task/Texture/icon_box4.png": {
+            "md5": "01b43e69f5b6e44a4e967dd4f876aa32",
+            "size": 14037
+        },
+        "res/Lobby/Task/Texture/im_activityFrame.png": {
+            "md5": "3e81b5e66688fe14b8c75d361ed33638",
+            "size": 24821
+        },
+        "res/Lobby/Task/Texture/im_complete.png": {
+            "md5": "c90a7f4868403811625e18226021a0a3",
+            "size": 11628
+        },
+        "res/Lobby/Task/Texture/im_taskFrame.png": {
+            "md5": "d423319ed27ef97ae65ea962cd591722",
+            "size": 54510
+        },
+        "res/Lobby/Task/Texture/im_taskName.png": {
+            "md5": "492eba0b2aea2f28081d7536d7f43bd4",
+            "size": 43734
+        },
+        "res/Lobby/Task/Texture/lb_activity1.png": {
+            "md5": "75480a2eb03974dfd8f419025a6d8333",
+            "size": 5072
+        },
+        "res/Lobby/Task/Texture/lb_activity2.png": {
+            "md5": "6a5695750fd962883f4ce3591ced3a0b",
+            "size": 2804
+        },
+        "res/Lobby/Task/Texture/lb_task1.png": {
+            "md5": "e68b04c7e6fe80708d13db160cfc4fec",
+            "size": 6100
+        },
+        "res/Lobby/Task/Texture/lb_task2.png": {
+            "md5": "1aa77b09d127e3de29641cb012e44329",
+            "size": 4839
+        },
+        "res/Lobby/Task/Texture/tt_task.png": {
+            "md5": "9d7954552c356c0de905b6c9158f95dc",
+            "size": 4360
+        },
+        "res/Public/Font/ft_rankingText.fnt": {
+            "md5": "a364a6e837a415c66bc52795022b5199",
+            "size": 2237
+        },
+        "res/Public/Font/ft_rankingText.png": {
+            "md5": "f3a6e712a52bf1812e4895a7a4666691",
+            "size": 23876
+        },
+        "res/Public/Font/ft_shopText.fnt": {
+            "md5": "e25c129a0dab5dd623dc985101e8384c",
+            "size": 2234
+        },
+        "res/Public/Font/ft_shopText.png": {
+            "md5": "795adaefe3269b4878da7f8dcd34c8ef",
+            "size": 20286
+        },
+        "res/Public/Font/yuan.ttf": {
+            "md5": "23bf0ed349cc311949f7bd2cd5940db2",
+            "size": 2995020
+        },
+        "res/Public/Layer/MessageBox.csb": {
+            "md5": "060bbd7f8d6dfcb8e0f28ebddc279870",
+            "size": 2720
+        },
+        "res/Public/Layer/MessageBox/MainLayer.csb": {
+            "md5": "53ccd4523b35e46c3e53b0def0551eff",
+            "size": 3124
+        },
+        "res/Public/Layer/Notify/MainLayer.csb": {
+            "md5": "8b6e6c6decb35e2e84de379d037f89cc",
+            "size": 2740
+        },
+        "res/Public/Layer/Notify/Texture/im_gongGao.png": {
+            "md5": "be8f910e2db6735de7972f1e6b5cd13d",
+            "size": 17904
+        },
+        "res/Public/Layer/Notify/Texture/im_laBa.png": {
+            "md5": "9154330c6691fdc320e6fcb279294660",
+            "size": 14777
+        },
+        "res/Public/Layer/TextPrompt/MainLayer.csb": {
+            "md5": "153f781c4d40019f22343366c3aa6884",
+            "size": 1296
+        },
+        "res/Public/Layer/WaitingPrompt/MainLayer.csb": {
+            "md5": "c0cf0846383b16522dc4c0755a40dfd3",
+            "size": 2444
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/Im_char2.png": {
+            "md5": "52bd8113dcfcd834a8f9e79ea38d0bf9",
+            "size": 4680
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/Im_char3.png": {
+            "md5": "ab304368321e35d1b4263f1f1db037a6",
+            "size": 6252
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/im_char1.png": {
+            "md5": "ec8d898fdfddbd6bfea6a10745e6e970",
+            "size": 4383
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/im_circle.png": {
+            "md5": "2ab01de6b69b9a545440b512e39ec9d3",
+            "size": 6237
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/im_loadingFrame.png": {
+            "md5": "db447eebd87092ccb7112a8ed3e8dc9e",
+            "size": 26817
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/im_n.png": {
+            "md5": "52bd8113dcfcd834a8f9e79ea38d0bf9",
+            "size": 4680
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/im_o.png": {
+            "md5": "ab304368321e35d1b4263f1f1db037a6",
+            "size": 6252
+        },
+        "res/Public/Layer/WaitingPrompt/Texture/im_u.png": {
+            "md5": "ec8d898fdfddbd6bfea6a10745e6e970",
+            "size": 4383
+        },
+        "res/Public/Layer/WaitingPrompt/WaitingPrompt.csb": {
+            "md5": "b84de32f46338e99cef8a4bb5b60432d",
+            "size": 2440
+        },
+        "res/Public/MessageBox/MainLayer.csb": {
+            "md5": "6aa38e41d06166e0ce0dc2be67f96ea0",
+            "size": 2768
+        },
+        "res/Public/Notify/MainLayer.csb": {
+            "md5": "066c368519656e706569d443b3297ff3",
+            "size": 3184
+        },
+        "res/Public/Notify/Texture/icon_horn.png": {
+            "md5": "0b9d0a9c73650fa98aa1f34a79eb87a7",
+            "size": 20112
+        },
+        "res/Public/Notify/Texture/im_boardNotify.png": {
+            "md5": "b21c3ce55e2f7678702bb93080759681",
+            "size": 23271
+        },
+        "res/Public/Notify/Texture/im_notify.png": {
+            "md5": "4dffe3db83ad83e33ec5c9a0d5d174a3",
+            "size": 20417
+        },
+        "res/Public/Plist/pl_touch.plist": {
+            "md5": "40b3753b423ceb8cbdb4add5b0e0d979",
+            "size": 8540
+        },
+        "res/Public/TextPrompt/MainLayer.csb": {
+            "md5": "454b3820d2785b2577dd3dba03256cba",
+            "size": 1292
+        },
+        "res/Public/TextPrompt/Texture/im_promptTemplate.png": {
+            "md5": "d110a5d182edf51e23b880e5c5827ff7",
+            "size": 20560
+        },
+        "res/Public/Texture/bt_cancel.png": {
+            "md5": "1f8e6ef487eddab8979bb74eb074704d",
+            "size": 19678
+        },
+        "res/Public/Texture/bt_close.png": {
+            "md5": "e40759a403abfde135488ee7edb0d1bf",
+            "size": 12846
+        },
+        "res/Public/Texture/bt_sure.png": {
+            "md5": "9b0be4659a43135b6444e433086fbba6",
+            "size": 18594
+        },
+        "res/Public/Texture/icon_dimond.png": {
+            "md5": "ac0d457eb255d703e2444cd46f4f3196",
+            "size": 6214
+        },
+        "res/Public/Texture/icon_energe.png": {
+            "md5": "0b51fb5a76f80066dee2d1b99af553d1",
+            "size": 6682
+        },
+        "res/Public/Texture/icon_money.png": {
+            "md5": "2664a831d90c9b624f72c4020d25ad25",
+            "size": 6365
+        },
+        "res/Public/Texture/im_defaultHead.png": {
+            "md5": "3f85f6c89d483df25fb5037a88565847",
+            "size": 87104
+        },
+        "res/Public/Texture/im_frame1.png": {
+            "md5": "925d4f7220cb036f55370dc6f98c0353",
+            "size": 27338
+        },
+        "res/Public/Texture/im_frame2.png": {
+            "md5": "b13a925c217fc4546a8d443a3625107f",
+            "size": 53348
+        },
+        "res/Public/Texture/im_frame3.png": {
+            "md5": "036ef6666269e8915302bb199662ad1e",
+            "size": 64372
+        },
+        "res/Public/Texture/im_itemFrame1.png": {
+            "md5": "03defca3bc00f4cb039347fe08d0b8d9",
+            "size": 4618
+        },
+        "res/Public/Texture/im_photo.png": {
+            "md5": "021a3a0956da476b4e31170fee31430a",
+            "size": 15326
+        },
+        "res/Public/Texture/im_resourse.png": {
+            "md5": "0fdfeacc7ddef7499d08340c008b0605",
+            "size": 8226
+        },
+        "res/Public/Texture/lb_exp.png": {
+            "md5": "96e9d4cb9e9162bf1db67c47582f7356",
+            "size": 804
+        },
+        "res/Public/Texture/lb_expBg.png": {
+            "md5": "bcd7415bd4b4cbcba32bc750df46f897",
+            "size": 809
+        },
+        "res/Public/WaitingPrompt/MainLayer.csb": {
+            "md5": "9fe2d43067b477531decb8974fe9431f",
+            "size": 2024
+        },
+        "res/Public/WaitingPrompt/Texture/im_loading.png": {
+            "md5": "462c98c6f85c5130641d37f3067105c7",
+            "size": 137638
+        },
+        "res/Public/WaitingPrompt/Texture/im_loadingBar.png": {
+            "md5": "b6dd412eb306d7456a9ccff9706fdca8",
+            "size": 5180
+        },
+        "res/SpriteFrames/AvatarFrames.plist": {
+            "md5": "8ce669ee23d5fe2bfc932ecf9b2aef0c",
+            "size": 5431
+        },
+        "res/SpriteFrames/AvatarFrames.png": {
+            "md5": "b022db46992ce3e0dd301e83a190736d",
+            "size": 695462
+        },
+        "res/SpriteFrames/ExpressionFrames.plist": {
+            "md5": "9f83f6a90e84e5f95043b346c2c7fae6",
+            "size": 10087
+        },
+        "res/SpriteFrames/ExpressionFrames.png": {
+            "md5": "ca7136867c1d1edbc0f8599d38a12b07",
+            "size": 111585
+        },
+        "res/SpriteFrames/ItemFrames.plist": {
+            "md5": "4f786c616544ecedb64ad73980918b1d",
+            "size": 17377
+        },
+        "res/SpriteFrames/ItemFrames.png": {
+            "md5": "6f827f5fdc77c7d074dcbf20abf990ae",
+            "size": 878147
+        },
+        "res/SpriteFrames/PokerFrames.plist": {
+            "md5": "fe1013d911a412a8ad7933e7a549a163",
+            "size": 23420
+        },
+        "res/SpriteFrames/PokerFrames.png": {
+            "md5": "d83bf4a1e276e1c298b5efb4562bf356",
+            "size": 67822
+        },
+        "res/SpriteFrames/QuestFrames.plist": {
+            "md5": "42d638530d04b899e2af9e7fe39e3df6",
+            "size": 6360
+        },
+        "res/SpriteFrames/QuestFrames.png": {
+            "md5": "7d80131a9f41ba7b6c9368330893f8dd",
+            "size": 87699
+        },
+        "res/SpriteFrames/VipFrames.plist": {
+            "md5": "72b4f41b91f23d43143e800335698ff0",
+            "size": 6317
+        },
+        "res/SpriteFrames/VipFrames.png": {
+            "md5": "e5bf3b9468eb7c1202b594956326dc43",
+            "size": 122208
+        },
+        "res/SpriteFrames/card_frames1.plist": {
+            "md5": "46de64b3bec7cdf89c16c404de2cc62f",
+            "size": 11695
+        },
+        "res/SpriteFrames/strencil.png": {
+            "md5": "ac779a89dca0b408e0ac91c9212c2e4f",
+            "size": 4029
+        },
+        "res/fnt/ft_jieSuan2.fnt": {
+            "md5": "33a68fdeca760899a37612ab9ccad70c",
+            "size": 2230
+        },
+        "res/fnt/ft_jieSuan2.png": {
+            "md5": "3e9f2263688dc3b4d0c57632cb844c9a",
+            "size": 35029
+        },
+        "res/fnt/yuan.ttf": {
+            "md5": "23bf0ed349cc311949f7bd2cd5940db2",
+            "size": 2995020
+        },
+        "res/gameres/card_frames1.plist": {
+            "md5": "96675c063e7d7f6bdf933e99ff1a216e",
+            "size": 12641
+        },
+        "res/gameres/card_frames1.png": {
+            "md5": "da3f6895d868194872717f10999f2dc1",
+            "size": 143758
+        },
+        "res/gameres/card_frames2.plist": {
+            "md5": "ea07efec9d8f17b4a163c44afa8785a6",
+            "size": 13579
+        },
+        "res/gameres/card_frames2.png": {
+            "md5": "6c1854a46e9ee33ad257193a50ec1a3c",
+            "size": 157410
+        },
+        "res/gameres/card_frames3.plist": {
+            "md5": "8ad3080e4de916a76a7caeef12238574",
+            "size": 4075
+        },
+        "res/gameres/card_frames3.png": {
+            "md5": "bcf48768032a044e094fd9f8313b03e5",
+            "size": 40717
+        },
+        "res/gameres/game_res1.plist": {
+            "md5": "0515771ad3f4afd79863b4f06f1cdfa3",
+            "size": 9214
+        },
+        "res/gameres/game_res1.png": {
+            "md5": "115b294eba05814ffe92ab8df5bc10a6",
+            "size": 377974
+        },
+        "res/gameres/game_res2.plist": {
+            "md5": "5ff48ebce0334a5bc27cc5d4b44f30e0",
+            "size": 17157
+        },
+        "res/gameres/game_res2.png": {
+            "md5": "a77acf267f44fe0f3065cee88f4b7489",
+            "size": 600390
+        },
+        "res/gameres/game_res3.plist": {
+            "md5": "e9d79282c5f5c30858bf3020f9084bba",
+            "size": 8746
+        },
+        "res/gameres/game_res3.png": {
+            "md5": "a0e0f7ea0154094b97d90c62f66cfbd2",
+            "size": 544678
+        },
+        "res/gameres/im_light_result.png": {
+            "md5": "b2d92b12464b06e46a24fa028a83c98c",
+            "size": 1158745
+        },
+        "res/gameres/im_ready.jpg": {
+            "md5": "5b4abf7010f33c36b88dc76a8ee70686",
+            "size": 185471
+        },
+        "res/gameres/im_result_bg.jpg": {
+            "md5": "852c5d318363f8b91287d8c36aadcbbf",
+            "size": 91675
+        },
+        "res/gameres/im_selfSeat1.png": {
+            "md5": "63e23fd77c29877a380a07b453bcfcd2",
+            "size": 20578
+        },
+        "res/gameres/im_selfSeat2.png": {
+            "md5": "d990c230507c7b317b124ef50b695a4f",
+            "size": 96172
+        },
+        "res/gameres/lb_load1.png": {
+            "md5": "b7a8645757533011f40f23a493262c8e",
+            "size": 8349
+        },
+        "res/gameres/lb_load2.png": {
+            "md5": "9fe01a93e5a6e552461d449060bc9a5c",
+            "size": 1552
+        },
+        "res/guide/im_arrow.png": {
+            "md5": "1621a3836bafb8c88c258269d0567082",
+            "size": 17419
+        },
+        "res/guide/im_npc2.png": {
+            "md5": "1830540f56cff72710f7f449d2303907",
+            "size": 281428
+        },
+        "res/guide/im_talk.png": {
+            "md5": "2b2f43fdec50c14b717fa9b80f9be35f",
+            "size": 7900
+        },
+        "res/guide/layers/GuideLayer.csb": {
+            "md5": "df52894c770342a81149b0fd835718a0",
+            "size": 13188
+        },
+        "res/guide/res/bt_enter.png": {
+            "md5": "d48095862925c8caeb7e9092cb78011b",
+            "size": 27071
+        },
+        "res/guide/res/bt_next.png": {
+            "md5": "e434e52e5d51373f661519f850d6681e",
+            "size": 22875
+        },
+        "res/guide/res/bt_refuce.png": {
+            "md5": "f7b5805c9c43326228a3c5c83dc9fdda",
+            "size": 24704
+        },
+        "res/guide/res/bt_study.png": {
+            "md5": "726fa9d66fc675467aa1a55832bd8905",
+            "size": 25642
+        },
+        "res/guide/res/im_bg_guide.jpg": {
+            "md5": "71764f0f2861b645065e80ddae6ce7a2",
+            "size": 209440
+        },
+        "res/guide/res/im_money.png": {
+            "md5": "9ac54aa3a962bee26d96fccdbdc45ca2",
+            "size": 377605
+        },
+        "res/guide/res/im_npc2.png": {
+            "md5": "1830540f56cff72710f7f449d2303907",
+            "size": 281428
+        },
+        "res/guide/res/im_npcName.png": {
+            "md5": "034c1a23a1113d70e4b7495db9f81d0c",
+            "size": 5529
+        },
+        "res/guide/res/im_step2.png": {
+            "md5": "611409c3286128a05c164fdd6ec2a761",
+            "size": 130327
+        },
+        "res/guide/res/im_step3.png": {
+            "md5": "5b6686b7d038e4a71e4451eac64ac2a3",
+            "size": 74894
+        },
+        "res/guide/res/im_step4.png": {
+            "md5": "6c40adafa30f29e453f1b3931d251fbf",
+            "size": 93396
+        },
+        "res/guide/res/im_step5.png": {
+            "md5": "6abc74b6ae784d52c418f9279d982203",
+            "size": 75807
+        },
+        "res/guide/res/im_textFrame.png": {
+            "md5": "e908ff4ced25c3ecbe7f167bd8ae67ae",
+            "size": 49482
+        },
+        "res/guide/res/tt_get.png": {
+            "md5": "f4eaf04c113bc83d8163f69ae3496da7",
+            "size": 28304
+        },
+        "res/im_background.jpg": {
+            "md5": "1cea91df54812c13d3573a569bf6dbe2",
+            "size": 581541
+        },
+        "res/level/layers/LevelLayer1.csb": {
+            "md5": "dc108f2f8ec0630eec71391dc320db8d",
+            "size": 3860
+        },
+        "res/level/layers/LevelLayer2.csb": {
+            "md5": "2457ffcade4361399f799d2196c8d4e2",
+            "size": 3860
+        },
+        "res/level/layers/LevelLayer3.csb": {
+            "md5": "d71ccb4d43f92d8b29be1f2613014f38",
+            "size": 3900
+        },
+        "res/level/layers/LevelLayerMain.csb": {
+            "md5": "0a2eb2ada314b05b06f81bd3d02b0b2c",
+            "size": 6524
+        },
+        "res/level/res/atlas1.plist": {
+            "md5": "facb76990a71d14b6c488454756c3287",
+            "size": 6976
+        },
+        "res/level/res/atlas1.png": {
+            "md5": "52fdc4e7d02d01833e00b472ee7c2f4f",
+            "size": 548796
+        },
+        "res/level/res/icon_box1.png": {
+            "md5": "2eb8938fc018fb657cbc63002b926afb",
+            "size": 9768
+        },
+        "res/level/res/icon_box2.png": {
+            "md5": "3207501bca5626def231fe23a5cae705",
+            "size": 8677
+        },
+        "res/level/res/icon_box3.png": {
+            "md5": "af3181f2d0a441ae4e9e683a1df621a4",
+            "size": 9614
+        },
+        "res/level/res/icon_star3.png": {
+            "md5": "697cffd9e367b5dee6398297dfe78d08",
+            "size": 665
+        },
+        "res/level/res/im_background.jpg": {
+            "md5": "368606e6f36e937311fad5b993fefe3d",
+            "size": 278873
+        },
+        "res/level/res/im_background1.jpg": {
+            "md5": "51ced721f7cd6772b1c6f1c71e04a906",
+            "size": 148400
+        },
+        "res/level/res/im_background2.jpg": {
+            "md5": "6b04f0475ed0b868982bd874aa8a32ba",
+            "size": 165237
+        },
+        "res/level/res/im_background3.jpg": {
+            "md5": "783f3ecbc5d57da0890d16c6a8536e8f",
+            "size": 138093
+        },
+        "res/level/res/im_clouds.png": {
+            "md5": "49a1031db14f0207d0a4de8e9646dcbe",
+            "size": 221418
+        },
+        "res/level/res/im_frame.png": {
+            "md5": "1bd007c825797d066d6753dc67d678ee",
+            "size": 3235
+        },
+        "res/level/res/im_frame2.png": {
+            "md5": "88e7f227a84e233b7701e1f798dcf4c0",
+            "size": 991
+        },
+        "res/level/res/im_starNum.png": {
+            "md5": "caf8ee6acbf6502f07c8b5d66ff5bd24",
+            "size": 9886
+        },
+        "res/level/res/lb_starLB.png": {
+            "md5": "188abedf17561c838bb4186abf6f6061",
+            "size": 4269
+        },
+        "res/level/res/lb_starLB2.png": {
+            "md5": "3242f201adcd9e989ec23f786e176d21",
+            "size": 10392
+        },
+        "res/level/ui/NodeLevel.csb": {
+            "md5": "169db1050db7164b70e7a12361b122e9",
+            "size": 2732
+        },
+        "res/level/ui/NodeLevelProgress.csb": {
+            "md5": "84e17bb2d36be1106b5ef3e7af2e4fc3",
+            "size": 6892
+        },
+        "res/level/ui/NodeTaskReady.csb": {
+            "md5": "854376456f1cbdbba0807bf1c7bb1cd8",
+            "size": 7196
+        },
+        "res/nickName/firstname": {
+            "md5": "e67c121d66e0133347eb7e312a92c119",
+            "size": 866
+        },
+        "res/nickName/lastname": {
+            "md5": "95ecafa5e04ace6a1010276c690bd52c",
+            "size": 4468
+        },
+        "res/sound/banker_fall.mp3": {
+            "md5": "56bb8d5a34285432658af00f1fa56b5d",
+            "size": 21587
+        },
+        "res/sound/banker_random.mp3": {
+            "md5": "07ee8f531366f3a5a02e739d3409d293",
+            "size": 10217
+        },
+        "res/sound/banker_sure.mp3": {
+            "md5": "f842153ece5a731ab7d5b854decf7218",
+            "size": 9887
+        },
+        "res/sound/brag/female/call_1.mp3": {
+            "md5": "a050449e437fbe95a57f5a38469287ca",
+            "size": 4030
+        },
+        "res/sound/brag/female/call_2.mp3": {
+            "md5": "1ce235d584e1b1abc4c98121b8b1ef74",
+            "size": 5284
+        },
+        "res/sound/brag/female/call_3.mp3": {
+            "md5": "28219fd55ddbea19bd33ac4efa80eb71",
+            "size": 8419
+        },
+        "res/sound/brag/female/check_1.mp3": {
+            "md5": "b155fb53efe039c43f727d399ae79e07",
+            "size": 18032
+        },
+        "res/sound/brag/female/fold_1.mp3": {
+            "md5": "228aee5b06ceeb7e6efe13ba521f50c4",
+            "size": 10823
+        },
+        "res/sound/brag/female/fold_2.mp3": {
+            "md5": "e5976701786d647649ca612b9f17fa50",
+            "size": 20123
+        },
+        "res/sound/brag/female/match_1.mp3": {
+            "md5": "7ca1335eb08103ddd9c898ad9586ace8",
+            "size": 18450
+        },
+        "res/sound/brag/female/raise_1.mp3": {
+            "md5": "9f43495cad3062d6101454058d59f9dd",
+            "size": 6747
+        },
+        "res/sound/brag/female/raise_2.mp3": {
+            "md5": "783bf4eda5178a4ec0054fa25b34e280",
+            "size": 10718
+        },
+        "res/sound/brag/female/raise_3.mp3": {
+            "md5": "ec2d6ee2023b749bd74b3089e662efc6",
+            "size": 7374
+        },
+        "res/sound/brag/female/raise_4.mp3": {
+            "md5": "a52e320dc07a389d2e56dac3bcce82c4",
+            "size": 8628
+        },
+        "res/sound/brag/male/call_1.mp3": {
+            "md5": "2184e8478f9b26aaef1672eb5c560405",
+            "size": 4030
+        },
+        "res/sound/brag/male/call_2.mp3": {
+            "md5": "429c889013a1aee991bbd7e6951a18e7",
+            "size": 5493
+        },
+        "res/sound/brag/male/call_3.mp3": {
+            "md5": "ca2460eefceeb1b97635a775d34d0710",
+            "size": 8001
+        },
+        "res/sound/brag/male/check_1.mp3": {
+            "md5": "d033a6d84a74d1a9708ef1a2c92a54ca",
+            "size": 16151
+        },
+        "res/sound/brag/male/fold_1.mp3": {
+            "md5": "5825ebc479a88aec95d0e95410ea0ae7",
+            "size": 11603
+        },
+        "res/sound/brag/male/fold_2.mp3": {
+            "md5": "0e51a1a20bb0161c5966188d034bdb03",
+            "size": 18193
+        },
+        "res/sound/brag/male/match_1.mp3": {
+            "md5": "2d1b5039a3c4c16650dff259d8dfd021",
+            "size": 15942
+        },
+        "res/sound/brag/male/match_2.mp3": {
+            "md5": "b33ad7fa9b000921e475cd6a9489b8d6",
+            "size": 13016
+        },
+        "res/sound/brag/male/raise_1.mp3": {
+            "md5": "4317e189b3ec8481cd276c9020d856b1",
+            "size": 5702
+        },
+        "res/sound/brag/male/raise_2.mp3": {
+            "md5": "76e0e6013f4b0083adf5f7dc1ba229d4",
+            "size": 7165
+        },
+        "res/sound/brag/male/raise_3.mp3": {
+            "md5": "67c715f7262de58da3f3253994a5bf01",
+            "size": 8628
+        },
+        "res/sound/brag/male/raise_4.mp3": {
+            "md5": "31a22d38b0b02fad7dcfb5060b9d600b",
+            "size": 6538
+        },
+        "res/sound/brag/pkKill.mp3": {
+            "md5": "09e1b6dfdf6595f02370c082dde63ce7",
+            "size": 26957
+        },
+        "res/sound/brag/pkStart.mp3": {
+            "md5": "85992dea22c00267711bec65660c6b89",
+            "size": 17567
+        },
+        "res/sound/brag/pkThunder.mp3": {
+            "md5": "e5af94f57ec549a6dbb8660db6e26980",
+            "size": 36347
+        },
+        "res/sound/brag/rush.mp3": {
+            "md5": "374739bd54dc2a06f656f9838a271a9a",
+            "size": 134920
+        },
+        "res/sound/brag/show.mp3": {
+            "md5": "a7caf0a24ab7ea589b32b5155ebc6888",
+            "size": 61387
+        },
+        "res/sound/brag/touchHead.mp3": {
+            "md5": "16214d267057dc9103dccb408a6d93d6",
+            "size": 34469
+        },
+        "res/sound/brag/win.mp3": {
+            "md5": "dd28fb0050054479f84a233ba86f2e78",
+            "size": 22575
+        },
+        "res/sound/button_1.mp3": {
+            "md5": "08f0cb1ebdafa9f00a57edbfa780aeaf",
+            "size": 8131
+        },
+        "res/sound/button_2.mp3": {
+            "md5": "b926f44097743d65a9bf3f9984ce74ef",
+            "size": 12343
+        },
+        "res/sound/button_3.mp3": {
+            "md5": "7826f0457b7be2d4bd51b7ba0896ac29",
+            "size": 11933
+        },
+        "res/sound/coin.mp3": {
+            "md5": "56ced8b4593e0156cf8761c8d91797b4",
+            "size": 11719
+        },
+        "res/sound/dailyCircle/bonus.mp3": {
+            "md5": "dbd25aff3dac0b7a51d2758698589afb",
+            "size": 47615
+        },
+        "res/sound/dailyCircle/change.mp3": {
+            "md5": "9b06b23fb642620fdd6bc773679d85c9",
+            "size": 31339
+        },
+        "res/sound/dailyCircle/draw.mp3": {
+            "md5": "6608877c122e16c26f41ce337e95bff2",
+            "size": 19445
+        },
+        "res/sound/dailyCircle/turn.mp3": {
+            "md5": "f6ddbe1e5de3222b7d62860d0638de4c",
+            "size": 97284
+        },
+        "res/sound/gameBgm.mp3": {
+            "md5": "9b54863a0a94239e54f5527b01c466b7",
+            "size": 1414984
+        },
+        "res/sound/gameStart.mp3": {
+            "md5": "4205bb60f09b10561857766c6f2f60d3",
+            "size": 44008
+        },
+        "res/sound/game_lose.mp3": {
+            "md5": "783f84d0c888c12b145812c6ac4ee12f",
+            "size": 97965
+        },
+        "res/sound/game_win.mp3": {
+            "md5": "90543af48aaea4239d7a0651eb06b059",
+            "size": 103599
+        },
+        "res/sound/handType/female/niu_1.mp3": {
+            "md5": "f5f80bdec93ddb0a9c6ec3e2347b2248",
+            "size": 1440
+        },
+        "res/sound/handType/female/niu_2.mp3": {
+            "md5": "55d8d64cac1d1b60ecce9f40788779ea",
+            "size": 1440
+        },
+        "res/sound/handType/female/niu_3.mp3": {
+            "md5": "9e1339c7f33d5e499e36ba7e0b4dae2e",
+            "size": 1296
+        },
+        "res/sound/handType/female/niu_4.mp3": {
+            "md5": "441f224919b63877981d288afd35e9a3",
+            "size": 1440
+        },
+        "res/sound/handType/female/niu_5.mp3": {
+            "md5": "1ed7a23f3f611c42ca64e4c521985b03",
+            "size": 1584
+        },
+        "res/sound/handType/female/niu_6.mp3": {
+            "md5": "8ecbfaa798b103aafcf8ed9e1ebbd27c",
+            "size": 1584
+        },
+        "res/sound/handType/female/niu_7.mp3": {
+            "md5": "8aa0f7d9ef0393430ab5eb73cb87de96",
+            "size": 1440
+        },
+        "res/sound/handType/female/niu_8.mp3": {
+            "md5": "d5715c1de7315ff032ec0b91f235b45f",
+            "size": 1296
+        },
+        "res/sound/handType/female/niu_9.mp3": {
+            "md5": "71f1ad56157f00ad708c19962b1ca2d3",
+            "size": 1584
+        },
+        "res/sound/handType/female/niu_hulu.mp3": {
+            "md5": "33571542c8570b004e25aeb1306e08bb",
+            "size": 21595
+        },
+        "res/sound/handType/female/niu_niu.mp3": {
+            "md5": "9b14f00ae588ed5fb50dac5b004d537c",
+            "size": 1296
+        },
+        "res/sound/handType/female/niu_no.mp3": {
+            "md5": "dfd8187f9a9f0ea457e794c22f3dbaf9",
+            "size": 3024
+        },
+        "res/sound/handType/female/niu_santiao.mp3": {
+            "md5": "92ae54a7e86de7ca371076ec4425bce9",
+            "size": 23323
+        },
+        "res/sound/handType/female/niu_shunzi.mp3": {
+            "md5": "9b979b02d71759f3bfe839fa2e3f3251",
+            "size": 24475
+        },
+        "res/sound/handType/female/niu_sizha.mp3": {
+            "md5": "7bf2f8a2586c8810482329fa4b670dc2",
+            "size": 10933
+        },
+        "res/sound/handType/female/niu_tonghua.mp3": {
+            "md5": "dc8fd5a9778175fb19b1df6706bbcee0",
+            "size": 20443
+        },
+        "res/sound/handType/female/niu_tonghuashun.mp3": {
+            "md5": "72b51cdbf1d6ff9a26e34a829d9b60b1",
+            "size": 25627
+        },
+        "res/sound/handType/female/niu_wuhua.mp3": {
+            "md5": "b71059059139f1d2d9f0ff4bea788f59",
+            "size": 8705
+        },
+        "res/sound/handType/female/niu_wuxiao.mp3": {
+            "md5": "7ae6f750e97101f614ff9eb16326a560",
+            "size": 12187
+        },
+        "res/sound/handType/male/niu_1.mp3": {
+            "md5": "43b2ec2a1ee0e646f8e9e0647a5c5db0",
+            "size": 2861
+        },
+        "res/sound/handType/male/niu_2.mp3": {
+            "md5": "392870441ae717f66bb958c457bbd6ce",
+            "size": 2706
+        },
+        "res/sound/handType/male/niu_3.mp3": {
+            "md5": "7a6eda2686406d857273101e3d5bcc4a",
+            "size": 2549
+        },
+        "res/sound/handType/male/niu_4.mp3": {
+            "md5": "9b5eac648ad13ab1017144fb982b1d00",
+            "size": 2601
+        },
+        "res/sound/handType/male/niu_5.mp3": {
+            "md5": "0e7ab5e694da8c80d6cc68ef0d68c430",
+            "size": 3173
+        },
+        "res/sound/handType/male/niu_6.mp3": {
+            "md5": "36637efa4ac5ebf26823c9b7e2472077",
+            "size": 2784
+        },
+        "res/sound/handType/male/niu_7.mp3": {
+            "md5": "06fbe2b9197e15b544ae53afecafdef8",
+            "size": 3433
+        },
+        "res/sound/handType/male/niu_8.mp3": {
+            "md5": "1a389c8efb7bc0a096750bfef1d490ae",
+            "size": 3202
+        },
+        "res/sound/handType/male/niu_9.mp3": {
+            "md5": "cbec9049207332471e5272dfbedee910",
+            "size": 3877
+        },
+        "res/sound/handType/male/niu_niu.mp3": {
+            "md5": "49db86df036fd2dd72129b35beabcfbc",
+            "size": 3668
+        },
+        "res/sound/handType/male/niu_no.mp3": {
+            "md5": "48d0f21e32e65306433500dc866c2974",
+            "size": 3589
+        },
+        "res/sound/handType/male/niu_sizha.mp3": {
+            "md5": "f7298120f4cc4345e7059480d0d71264",
+            "size": 4371
+        },
+        "res/sound/handType/male/niu_wuhua.mp3": {
+            "md5": "5493dccf4d1f8bcf8305a2ceb3b54799",
+            "size": 5021
+        },
+        "res/sound/handType/male/niu_wuxiao.mp3": {
+            "md5": "934c1e291c8d29d626fa42a9dd880684",
+            "size": 5409
+        },
+        "res/sound/lobbyBgm.mp3": {
+            "md5": "d0c3f3c88b00f656cf603b2b5152898b",
+            "size": 730696
+        },
+        "res/sound/loginBgm.mp3": {
+            "md5": "79561dcb8d3915ad7132111fc0995f3b",
+            "size": 1509344
+        },
+        "res/sound/poker_click.mp3": {
+            "md5": "3b1525e8d837a08d5a201baa8491e374",
+            "size": 7547
+        },
+        "res/sound/poker_complete.mp3": {
+            "md5": "ff11de5db3945a7e82599ba6aeef71e5",
+            "size": 14707
+        },
+        "res/sound/poker_deal.mp3": {
+            "md5": "b9af234400d8d698360a2b6e3f81726d",
+            "size": 12829
+        },
+        "res/sound/poolWin.mp3": {
+            "md5": "b48f08ea698b02789991e738854f71c6",
+            "size": 82315
+        },
+        "res/sound/receive.mp3": {
+            "md5": "18e8d6364e301bffd5516163e1f1072c",
+            "size": 45324
+        },
+        "res/sound/systemWord/female/system_word_1.mp3": {
+            "md5": "a02997b55abdc57202ba2da6cc691ed3",
+            "size": 41422
+        },
+        "res/sound/systemWord/female/system_word_10.mp3": {
+            "md5": "ad899abcf7632eeceb4e24a8c48e9f49",
+            "size": 41004
+        },
+        "res/sound/systemWord/female/system_word_11.mp3": {
+            "md5": "97aafbc5cda33ac61309eb38043a60ad",
+            "size": 48527
+        },
+        "res/sound/systemWord/female/system_word_12.mp3": {
+            "md5": "34eceb0df23fa19990ef3d4c1346bb2a",
+            "size": 38914
+        },
+        "res/sound/systemWord/female/system_word_13.mp3": {
+            "md5": "b8411f6783085ebf07fab1b42cf0e203",
+            "size": 33480
+        },
+        "res/sound/systemWord/female/system_word_14.mp3": {
+            "md5": "732f0e0d5de43179be6df85aebaffc0e",
+            "size": 41422
+        },
+        "res/sound/systemWord/female/system_word_15.mp3": {
+            "md5": "b4bbe124b8987f557ee68cfacf294e15",
+            "size": 38914
+        },
+        "res/sound/systemWord/female/system_word_2.mp3": {
+            "md5": "6652fa01d3041024b467931099abf03a",
+            "size": 51035
+        },
+        "res/sound/systemWord/female/system_word_3.mp3": {
+            "md5": "87f4252f4c4038cfae7dceff9895ee11",
+            "size": 51453
+        },
+        "res/sound/systemWord/female/system_word_4.mp3": {
+            "md5": "79899a79be11860a22ecd36ce8e980de",
+            "size": 58976
+        },
+        "res/sound/systemWord/female/system_word_5.mp3": {
+            "md5": "aecdcf541c92de3ca17abacf351869ba",
+            "size": 61066
+        },
+        "res/sound/systemWord/female/system_word_6.mp3": {
+            "md5": "04842447284a6122cdfef7465333af78",
+            "size": 46855
+        },
+        "res/sound/systemWord/female/system_word_7.mp3": {
+            "md5": "a87c898de1ab6cc4ab13d6851653ab40",
+            "size": 52706
+        },
+        "res/sound/systemWord/female/system_word_8.mp3": {
+            "md5": "0b6f4a54e2bd6f0bfc6f11fed8eaf699",
+            "size": 43511
+        },
+        "res/sound/systemWord/female/system_word_9.mp3": {
+            "md5": "95b69a2f5333190908c775edaf9e08d4",
+            "size": 34316
+        },
+        "res/sound/systemWord/male/system_word_1.mp3": {
+            "md5": "78ec5f8d43870722d0d65aa6ff344776",
+            "size": 41141
+        },
+        "res/sound/systemWord/male/system_word_10.mp3": {
+            "md5": "4994e7ef4b14d5913a1126e1a681bff9",
+            "size": 45738
+        },
+        "res/sound/systemWord/male/system_word_11.mp3": {
+            "md5": "475dde0b3dde9f989c8a4ae31b9777b8",
+            "size": 49082
+        },
+        "res/sound/systemWord/male/system_word_12.mp3": {
+            "md5": "43b87c433d5c1f43cc1e97a5b98a42c5",
+            "size": 53261
+        },
+        "res/sound/systemWord/male/system_word_13.mp3": {
+            "md5": "71caeeba1d3118649c43081187953e2c",
+            "size": 47828
+        },
+        "res/sound/systemWord/male/system_word_14.mp3": {
+            "md5": "6d6a7bccdbf9e51e4aae23cb7be3a2cc",
+            "size": 39051
+        },
+        "res/sound/systemWord/male/system_word_15.mp3": {
+            "md5": "4dbd0ad3b0827efa3fa68769337fa764",
+            "size": 38633
+        },
+        "res/sound/systemWord/male/system_word_2.mp3": {
+            "md5": "b65f1863dc2612c786666dbee95ad5c8",
+            "size": 55351
+        },
+        "res/sound/systemWord/male/system_word_3.mp3": {
+            "md5": "2287fb489ac0f2cbaa1d57e79f48c21f",
+            "size": 53679
+        },
+        "res/sound/systemWord/male/system_word_4.mp3": {
+            "md5": "738ca22ee8fd5e1232d4eac20b7a5ef5",
+            "size": 74577
+        },
+        "res/sound/systemWord/male/system_word_5.mp3": {
+            "md5": "ae101f2635e4ddd585cc28e9853f2340",
+            "size": 76249
+        },
+        "res/sound/systemWord/male/system_word_6.mp3": {
+            "md5": "aac35d77659d1515ae5709adc350ced5",
+            "size": 54933
+        },
+        "res/sound/systemWord/male/system_word_7.mp3": {
+            "md5": "f34faa05d3ecc48f538053a64c77dc78",
+            "size": 58277
+        },
+        "res/sound/systemWord/male/system_word_8.mp3": {
+            "md5": "426876ab1bac9ed824fd33dc5ccf0825",
+            "size": 48246
+        },
+        "res/sound/systemWord/male/system_word_9.mp3": {
+            "md5": "7ed69607a8e75648c59f77e67c02c501",
+            "size": 47828
+        },
+        "res/tips.json": {
+            "md5": "81cfca3a0dd90840113c65cbd7ff6fcb",
+            "size": 50
+        },
+        "res/update/project.manifest": {
+            "md5": "384da850e65159e5e1bebaef52f77708",
+            "size": 244
+        },
+        "res/update/version.manifest": {
+            "md5": "af9d3278e148e598058daf0ac142e87c",
+            "size": 212
+        },
+        "src/app/AppConfig.lua": {
+            "md5": "edb6241b6830e5ed47c8df6bb1427679",
+            "size": 267
+        },
+        "src/app/MyApp.lua": {
+            "md5": "e4b8e12d61a64cb529c8583cbe6baf3a",
+            "size": 687
+        },
+        "src/app/common/GlobalData.lua": {
+            "md5": "3fe5d0183eb369f27ce5bcf076d1b404",
+            "size": 298
+        },
+        "src/app/common/PlayerData.lua": {
+            "md5": "3f3025f2d54ed7982cb589d5b87fa45c",
+            "size": 461
+        },
+        "src/app/common/RoomData.lua": {
+            "md5": "2421cef27e52aa58bd2a2ed5ace8490e",
+            "size": 92
+        },
+        "src/app/common/SystemData.lua": {
+            "md5": "dc16ba98975f0ec466daff9e39aac74f",
+            "size": 96
+        },
+        "src/app/controllers/CardController.lua": {
+            "md5": "79cece91ca9976d7d922e4ddc31244e9",
+            "size": 1669
+        },
+        "src/app/controllers/DailyController.lua": {
+            "md5": "b0b61fcc8909c746a9083350ff9c3f3c",
+            "size": 1497
+        },
+        "src/app/controllers/GiftController.lua": {
+            "md5": "3d245fc253d23174a2e633a7cddfd03e",
+            "size": 1669
+        },
+        "src/app/controllers/LobbyController.lua": {
+            "md5": "8f13b31fb2adfcb4171073c26a26c98d",
+            "size": 9792
+        },
+        "src/app/controllers/LoginController.lua": {
+            "md5": "4a75a38edb41a1d0e24e66201cec9f3e",
+            "size": 3754
+        },
+        "src/app/controllers/MoreController.lua": {
+            "md5": "7c7f5f5df0af2068fa229f768e3929a4",
+            "size": 2848
+        },
+        "src/app/controllers/MyInfoController.lua": {
+            "md5": "81c14366d72ad58e404a3f598697e133",
+            "size": 2392
+        },
+        "src/app/controllers/OptionController.lua": {
+            "md5": "11a4b033a3970e670d5ee90f94e47f58",
+            "size": 4175
+        },
+        "src/app/controllers/RankController.lua": {
+            "md5": "fa6fbe5e0039c11341cf3a7a70cf13ab",
+            "size": 3157
+        },
+        "src/app/controllers/RedBagController.lua": {
+            "md5": "f493e0805baa9edb175a0847d5038f81",
+            "size": 1171
+        },
+        "src/app/controllers/SendBagController.lua": {
+            "md5": "6cd24b91bafe3c091f4eadb6cea06016",
+            "size": 2690
+        },
+        "src/app/controllers/ShopController.lua": {
+            "md5": "e6a504e6e6a9b58d85ca917edd47ff43",
+            "size": 6016
+        },
+        "src/app/controllers/TaskController.lua": {
+            "md5": "5c621af3ab14c2408ebb921173c4cd31",
+            "size": 4213
+        },
+        "src/app/core/config.lua": {
+            "md5": "7e1c3588d974cb345bf1ce6263ff0422",
+            "size": 5547
+        },
+        "src/app/core/controllers/DisplayController.lua": {
+            "md5": "af36d0dc0ae7572b696b563ccf5f0509",
+            "size": 9085
+        },
+        "src/app/core/controllers/MainController.lua": {
+            "md5": "bf41c9fa86fa4a39e10081667183a518",
+            "size": 7812
+        },
+        "src/app/core/controllers/OpLayerController.lua": {
+            "md5": "d6076eda8c8a8bc0e22dfa3cd56affa1",
+            "size": 2602
+        },
+        "src/app/core/controllers/PokerLayerController.lua": {
+            "md5": "fc0f825954f75563764336e29299d7f4",
+            "size": 2027
+        },
+        "src/app/core/controllers/StudyController.lua": {
+            "md5": "0f06c41d107447623b9c14fe7bb50606",
+            "size": 12464
+        },
+        "src/app/core/controllers/TableController.lua": {
+            "md5": "565e0557313b722504bc12c5a6e4c538",
+            "size": 2779
+        },
+        "src/app/core/controllers/TablePlayersController.lua": {
+            "md5": "cf979ca9ebd269acc2bcb51066000e23",
+            "size": 905
+        },
+        "src/app/core/controllers/TestViewController.lua": {
+            "md5": "e255874fd88ec603ff44e6c40847650b",
+            "size": 5716
+        },
+        "src/app/core/controllers/TouchController.lua": {
+            "md5": "fb7a9ec98b605648ea35dceb7573e60a",
+            "size": 8122
+        },
+        "src/app/core/logic/Rule.lua": {
+            "md5": "1f6ef4199c91c5896ddfdc00c6cb4901",
+            "size": 86
+        },
+        "src/app/core/models/GCDataConvert.lua": {
+            "md5": "3649e03c01961cbf4acdb6136e03331e",
+            "size": 2970
+        },
+        "src/app/core/models/GameModel.lua": {
+            "md5": "bfd104c0115178e524929953d33fd02f",
+            "size": 15430
+        },
+        "src/app/core/models/GameMsgHandler.lua": {
+            "md5": "c44ec81ed7bfb909de0b86a053fc7962",
+            "size": 2465
+        },
+        "src/app/core/poker/Poker.lua": {
+            "md5": "c451705a41a35b634c534e3b1b889407",
+            "size": 5866
+        },
+        "src/app/core/poker/PokerFactory.lua": {
+            "md5": "f6e25e6b26928236f924d58a5923640b",
+            "size": 1104
+        },
+        "src/app/core/scenes/GameScene.lua": {
+            "md5": "c0986aacd5e0799cd9ed66a0a996ef34",
+            "size": 5347
+        },
+        "src/app/core/ui/NodeColorPicker.lua": {
+            "md5": "c14720a45c4a1224f3d45fbd56517396",
+            "size": 2838
+        },
+        "src/app/core/ui/NodePlayer.lua": {
+            "md5": "f166f32819cc58992c8b6e4efc7dce65",
+            "size": 2177
+        },
+        "src/app/core/ui/NodePrompt.lua": {
+            "md5": "4552207d6771c6bee681213b1f69e474",
+            "size": 5193
+        },
+        "src/app/core/ui/NodeQueryConfirm.lua": {
+            "md5": "279212d3a6224f18529e62ce8fcdf01c",
+            "size": 2575
+        },
+        "src/app/core/ui/NodeReadyPlayer.lua": {
+            "md5": "e0b7342848f6427add1583cad8c316ac",
+            "size": 2408
+        },
+        "src/app/core/views/DisplayLayer.lua": {
+            "md5": "79d7592087626a5a7fbb3ddf7b34a3bc",
+            "size": 3530
+        },
+        "src/app/core/views/OpLayer.lua": {
+            "md5": "a7108dffcb26513b5b734d112bd9e4db",
+            "size": 2777
+        },
+        "src/app/core/views/PokerLayer.lua": {
+            "md5": "f506501f516ff743ec528e13da7ba533",
+            "size": 29977
+        },
+        "src/app/core/views/ReadyLayer.lua": {
+            "md5": "f0ac0f085de84096544d69d366ba9e63",
+            "size": 4369
+        },
+        "src/app/core/views/ResultLayer.lua": {
+            "md5": "6dc1685ca9b43242f302d12f3228285c",
+            "size": 6358
+        },
+        "src/app/core/views/TableLayer.lua": {
+            "md5": "df2f34872244b470fd4ead134950b0f1",
+            "size": 3816
+        },
+        "src/app/core/views/TablePlayerLayer.lua": {
+            "md5": "b5d63f31656f0e7449aa7df8010e27f1",
+            "size": 1952
+        },
+        "src/app/func/AppDelegate.lua": {
+            "md5": "468e651408c22335566ac7b2fb4a02a3",
+            "size": 563
+        },
+        "src/app/func/AudioHelper.lua": {
+            "md5": "dbf022d2bf4b85f6e9d6eb3bde302c63",
+            "size": 7057
+        },
+        "src/app/func/AvatarHelper.lua": {
+            "md5": "d81b0a6b92e08929323dca33e0a522a7",
+            "size": 2890
+        },
+        "src/app/func/Bridge.lua": {
+            "md5": "b70ce0a043385ef85336c22ff0c3c29c",
+            "size": 11001
+        },
+        "src/app/func/DataConvert.lua": {
+            "md5": "4eb551982f0e113b2811dfe66edcb646",
+            "size": 20951
+        },
+        "src/app/func/DebugHelper.lua": {
+            "md5": "14da73bd4c53a8c6e01709769a05293a",
+            "size": 1719
+        },
+        "src/app/func/EventDispatcher.lua": {
+            "md5": "b45f15b417aacbe276ac179206f0b809",
+            "size": 241
+        },
+        "src/app/func/HtmlSimpleParser.lua": {
+            "md5": "af1793c552429294dee40a6362534020",
+            "size": 4405
+        },
+        "src/app/func/IosPayHelper.lua": {
+            "md5": "139acdc39c00111b6cb163175a69587c",
+            "size": 2340
+        },
+        "src/app/func/ItemManager.lua": {
+            "md5": "86bbe662118aa45e840ab1509ddeba6e",
+            "size": 5810
+        },
+        "src/app/func/LocalDataHelper.lua": {
+            "md5": "2f9197ecb725d8597b342a89e29dcee4",
+            "size": 3282
+        },
+        "src/app/func/MobClickForLua.lua": {
+            "md5": "c641b24f4728a2815b7d8463042c2b9c",
+            "size": 10255
+        },
+        "src/app/func/RandomNickNameManager.lua": {
+            "md5": "9703a5e7be5c14e967aa7dbddf5b4ce1",
+            "size": 962
+        },
+        "src/app/func/SchedulerManager.lua": {
+            "md5": "c214efbe8c1eba52f3261064e0ea715a",
+            "size": 736
+        },
+        "src/app/func/UIExtend.lua": {
+            "md5": "03f504bf4ae641660779acc4b7cdb5ee",
+            "size": 920
+        },
+        "src/app/func/Utils.lua": {
+            "md5": "b3e9f86a2870f8b450d6a4f010edaf75",
+            "size": 14030
+        },
+        "src/app/init.lua": {
+            "md5": "cc67ff828c3d77164b8cf40cb8c3c367",
+            "size": 2792
+        },
+        "src/app/level/LevelController.lua": {
+            "md5": "02114d80fbc54dac30ab4c7922e2061c",
+            "size": 2713
+        },
+        "src/app/level/LevelDataConvert.lua": {
+            "md5": "5a54940c5aa835fd1686f13684fbfa39",
+            "size": 786
+        },
+        "src/app/level/LevelLayer.lua": {
+            "md5": "8b56dacd1e188c874a5d3fea39718f94",
+            "size": 5093
+        },
+        "src/app/level/LevelModel.lua": {
+            "md5": "d4143dc1c555b5deaf57f1f148ccc3b7",
+            "size": 340
+        },
+        "src/app/level/LevelMsgHandler.lua": {
+            "md5": "3299e014f29a969bfee46ffbe5e39ed7",
+            "size": 55
+        },
+        "src/app/level/LevelScene.lua": {
+            "md5": "b03a9bb806e843119c6bc82f968b998a",
+            "size": 1160
+        },
+        "src/app/level/LevelTaskMsgBox.lua": {
+            "md5": "745ae369a4bd16d2bc5ea5238b0657c6",
+            "size": 1277
+        },
+        "src/app/model/MsgOp.lua": {
+            "md5": "f2f93bec8a6124a72202144be51979bd",
+            "size": 13257
+        },
+        "src/app/model/ReqSender.lua": {
+            "md5": "103f47b0b2c1ecf54992995a93f3a6b4",
+            "size": 7666
+        },
+        "src/app/network/MsgHandler.lua": {
+            "md5": "e9fae846b1425d44775206975435b50c",
+            "size": 7180
+        },
+        "src/app/network/WebSockets.lua": {
+            "md5": "bb6652d2ed4df368ea34d97b9cd6eeec",
+            "size": 2227
+        },
+        "src/app/network/protobuf/initPb.lua": {
+            "md5": "469ca171065d39fbe7a639d2c18a1d31",
+            "size": 287
+        },
+        "src/app/network/protobuf/pb/base.pb": {
+            "md5": "2c2ce0033e9770bef6aa7ccdb1112e42",
+            "size": 8442
+        },
+        "src/app/network/protobuf/pb/base.proto": {
+            "md5": "9deaf16bc89c552a583277889b339fd1",
+            "size": 29380
+        },
+        "src/app/network/protobuf/pb/enum.pb": {
+            "md5": "24b8c83e6e89227831aecbb82c0cb01b",
+            "size": 2150
+        },
+        "src/app/network/protobuf/pb/enum.proto": {
+            "md5": "10bf55a4a0866d19d4288c4887c0fb41",
+            "size": 6072
+        },
+        "src/app/network/protobuf/pb/uno.pb": {
+            "md5": "388e75649ece527b3e672c75ed2556b4",
+            "size": 1539
+        },
+        "src/app/network/protobuf/pb/uno.proto": {
+            "md5": "af9eb4b712bd5d4222deeb2732ff8bcd",
+            "size": 4091
+        },
+        "src/app/network/protobuf/pb/zebraBase.pb": {
+            "md5": "1de5f21148438a084f78a6a84bc8132e",
+            "size": 9417
+        },
+        "src/app/network/protobuf/pb/zebraBase.proto": {
+            "md5": "f3c68614bd269aa4053658d861817a3f",
+            "size": 30574
+        },
+        "src/app/network/protobuf/pb/zebraEnum.pb": {
+            "md5": "356212d139292ab69daece8d3fcf83d6",
+            "size": 4566
+        },
+        "src/app/network/protobuf/pb/zebraEnum.proto": {
+            "md5": "0dfd1e6e9936f584b10ffb19ee77172e",
+            "size": 12563
+        },
+        "src/app/network/protobuf/protobuf.lua": {
+            "md5": "0cdc56cc06c3561a3791be5224c417b2",
+            "size": 13259
+        },
+        "src/app/scenes/GuideScene.lua": {
+            "md5": "7a22f26bdb77b3d2b1b990a3e75c5e24",
+            "size": 2592
+        },
+        "src/app/scenes/LoadingScene.lua": {
+            "md5": "044fa8cf96ec8607db65b9cdf7140ca2",
+            "size": 1877
+        },
+        "src/app/scenes/LobbyScene.lua": {
+            "md5": "fdb3b202960d22a791a0965293e35a41",
+            "size": 745
+        },
+        "src/app/scenes/LoginScene.lua": {
+            "md5": "d56de8cc7c4dd9294dd497ac9c2ecd66",
+            "size": 1737
+        },
+        "src/app/scenes/TestScene.lua": {
+            "md5": "500e9c2684bd596fddf7baaf5809434f",
+            "size": 1268
+        },
+        "src/app/scenes/UpdateScene.lua": {
+            "md5": "2ad92bb33525481a98b2219ed69f753c",
+            "size": 5290
+        },
+        "src/app/share/AppUtils.lua": {
+            "md5": "dc9cabacc47c59f47ecaa0fc0f720386",
+            "size": 5698
+        },
+        "src/app/share/VisibleRect.lua": {
+            "md5": "5bf40e0da03a864db480dcb861f69221",
+            "size": 2132
+        },
+        "src/app/share/ccEx/ccButtonEx.lua": {
+            "md5": "1dcb02b4677e95b8f386d056958b5d74",
+            "size": 979
+        },
+        "src/app/share/ccEx/ccImageViewEx.lua": {
+            "md5": "225a18f4acadbf57d33495d03ffb1a20",
+            "size": 237
+        },
+        "src/app/share/ccEx/ccLabelEx.lua": {
+            "md5": "91f02dd6aa8597603a2b7b8fc56ef996",
+            "size": 2165
+        },
+        "src/app/share/ccEx/ccLayoutEx.lua": {
+            "md5": "edb70e91415984131a22e1cff4758dbd",
+            "size": 203
+        },
+        "src/app/share/ccEx/ccNodeEx.lua": {
+            "md5": "dfde45d57eac874ee0d3616038746076",
+            "size": 499
+        },
+        "src/app/share/ccEx/ccWidgetEx.lua": {
+            "md5": "babde07566f14aed19230389df32d133",
+            "size": 1084
+        },
+        "src/app/share/ccEx/init.lua": {
+            "md5": "743ff40b77b18b3ed6fd2c5fbae0ecff",
+            "size": 137
+        },
+        "src/config.lua": {
+            "md5": "9b662b07141ca74fca077d3dab0cde35",
+            "size": 787
+        },
+        "src/main.lua": {
+            "md5": "0e1d0a3b2fb270fcde6e250661d0697e",
+            "size": 1502
+        },
+        "src/public/AppUtils.lua": {
+            "md5": "1fc4f45f2432d8148d0c11aa89683548",
+            "size": 4649
+        },
+        "src/public/VisibleRect.lua": {
+            "md5": "5bf40e0da03a864db480dcb861f69221",
+            "size": 2132
+        },
+        "src/public/baseScripts/LobbyBaseController.lua": {
+            "md5": "f3c313dac1d0b10b21ddb53bc0b49246",
+            "size": 3354
+        },
+        "src/public/shader/Blur.lua": {
+            "md5": "42d3f19c95819707cb21140ccabb21ee",
+            "size": 2443
+        },
+        "src/public/shader/Bomb.lua": {
+            "md5": "81a176dc6bff7ebf84472437cae2b942",
+            "size": 2300
+        },
+        "src/public/shader/EdgeFlow.lua": {
+            "md5": "fd413f81356dab3aa5ab79a59ea20120",
+            "size": 871
+        },
+        "src/public/shader/Flow.lua": {
+            "md5": "f89a033eca4470dfdac05eddac15e00d",
+            "size": 1131
+        },
+        "src/public/shader/Gray.lua": {
+            "md5": "0f77a1d8db49bcfad8ba2dfc4dbc030b",
+            "size": 1598
+        },
+        "src/public/shader/Mask.lua": {
+            "md5": "9bdab0df4d883c511abab2e7ef877e4a",
+            "size": 1782
+        },
+        "src/public/shader/Multicolour.lua": {
+            "md5": "6de3f2746955d644ba568c8ac64da796",
+            "size": 2304
+        },
+        "src/public/shader/NoMVP.lua": {
+            "md5": "0d190928d0310d6739988a87735255e1",
+            "size": 1473
+        },
+        "src/public/shader/edgeFlow.frag": {
+            "md5": "dd017c48273f80d0515c5c75adad20a8",
+            "size": 934
+        },
+        "src/public/shader/edgeFlow.vert": {
+            "md5": "9f70b823871b0dfcad585e377c6bbe29",
+            "size": 398
+        },
+        "src/public/shader/flow.frag": {
+            "md5": "3978989cb11a3b0e7cd0ffa08a2f08df",
+            "size": 812
+        },
+        "src/public/shader/flow.vert": {
+            "md5": "522f90508ee43e937e6b64377eaa54d3",
+            "size": 413
+        },
+        "src/public/ui/MessageBox.lua": {
+            "md5": "fbfc3de3e5ed91362bc7053dbb7eca7f",
+            "size": 1720
+        },
+        "src/public/ui/NotifyLayer.lua": {
+            "md5": "9fbfb39181adfebb2f871a2fc4e9839c",
+            "size": 5991
+        },
+        "src/public/ui/RadioButton.lua": {
+            "md5": "14cbd0ffac0c825b6a750dc17e97b570",
+            "size": 3024
+        },
+        "src/public/ui/ShotScreen.lua": {
+            "md5": "9c716f7746070f000c3d18b168c0cff8",
+            "size": 905
+        },
+        "src/public/ui/TextPrompt.lua": {
+            "md5": "945d0c7ee2b6826e5bdee95cdd0cb109",
+            "size": 4255
+        },
+        "src/public/ui/TouchAnim.lua": {
+            "md5": "4392c88dcc13496d4d5d3f6c84f61116",
+            "size": 1321
+        },
+        "src/public/ui/WaitingPrompt.lua": {
+            "md5": "73adf8b65bd4e58b67f32292cc5d65a2",
+            "size": 2160
+        }
+    },
+    "packageUrl": "http://192.168.3.39:3000",
+    "remoteManifestUrl": "http://192.168.3.39:3000/project.manifest",
+    "remoteVersionUrl": "http://192.168.3.39:3000/version.manifest",
+    "version": "1.0.0"
+}
