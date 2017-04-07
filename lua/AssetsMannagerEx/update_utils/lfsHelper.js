@@ -1,5 +1,7 @@
 var fs = require("fs")
 var crypto = require('crypto');
+var copy = require('./copyFile'),
+	copyFiles = copy.copyFiles;
 
 function geFileList(path, filesList, walkDir)
 {	
@@ -12,6 +14,10 @@ var _outDir = process.env.OUT_DIR || "./"
 var _excludeDir = process.env.EXCLUDE_DIR || ""
 var url = process.env.URL || "";
 var version = process.env.VERSION || "1.0.0";
+var _prePath = process.env.PRE_PATH || ""
+var _target = process.env.TARGET || "ios"
+
+var differenceFiles = [];
 
 //遍历读取文件
 function readFile(path, filesList, walkDir) {
@@ -20,6 +26,11 @@ function readFile(path, filesList, walkDir) {
 	function walk(file){
 		
 		if (file == ".DS_Store") {
+			return;
+		}
+		
+		
+		if (file == "channel.ini") {
 			return;
 		}
 		
@@ -45,6 +56,21 @@ function readFile(path, filesList, walkDir) {
  	}
 }
 
+function isTheSameFile(file1, file2) {
+	var text1 = fs.readFileSync(file1);
+	var text2 = fs.readFileSync(file2);
+	
+	var md51 = crypto.createHash('md5').update(text1, 'utf-8').digest('hex');
+	var md52 = crypto.createHash('md5').update(text2, 'utf-8').digest('hex');
+	
+	if (md51 === md52) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
 var filesList = []
 filesList = geFileList(_walkDir, filesList, _walkDir);
 
@@ -69,6 +95,8 @@ function write2manifest() {
 	var strManifest = JSON.stringify(obj); 	
 	fs.writeFile(_outDir + "/project.manifest", strManifest, 'utf-8', function () {
 		console.log("project.manifest 生成成功");
+		
+		//compareDifferenceFile();
 	});
 }
 
@@ -89,6 +117,52 @@ function write2versionmanifest() {
 }
 
 write2versionmanifest();
+
+function compareDifferenceFile() {
+	var oldRoot = _outDir + "/../hotupdate_old";
+	var newRoot = _outDir;
+	var diffRoot = _outDir + "/../" + _target;
+	if (!fs.existsSync(oldRoot + "/project.manifest")) {
+		copyFiles(newRoot, diffRoot, null);
+		console.log("拷贝成功");		
+	} else {
+		var oldFest = fs.readFileSync(oldRoot + "/project.manifest", 'utf-8');
+		var oldObj = JSON.parse(oldFest.toString());
+		var oldAsserts = oldObj.assets
+		
+		var newFest = fs.readFileSync(newRoot + "/project.manifest", 'utf-8');
+		var newObj = JSON.parse(newFest.toString());
+		var newAsserts = newObj.assets
+		
+		var diffFiles = [];
+		var diffObj = {};
+		for (var keyRes in newAsserts) {
+			var assert = newAsserts[keyRes];
+			var oldAssert = oldAsserts[keyRes];
+						
+			if ((!oldAssert) || (assert.md5 != oldAssert.md5)) {
+				diffFiles.push(keyRes);
+				var objKey = "./hotupdate" + keyRes;
+				diffObj[objKey] = true;
+			} else {	
+				
+			}
+		}
+		
+		copyFiles(newRoot, diffRoot, diffObj);
+		
+		if (diffFiles.length > 0) {
+			console.log("共有" + diffFiles.length + "文件更新");
+			for (var i = 0; i < diffFiles.length; ++i) {
+				console.log((i + 1) + " : " + diffFiles[i]);
+			};
+		} else {
+			console.log("没有文件更新");
+		}
+	}
+}
+	
+
  
 
 
