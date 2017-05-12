@@ -18,7 +18,6 @@ end)
 
 
 function HtmlText:ctor()
-	print("<===== HtmlText:ctor HtmlText:ctor HtmlText:ctor")
 	self._font = {
 		face = "",
 		size = "",
@@ -83,10 +82,9 @@ local function hex2Rgb(strHex)
 	return cc.c3b(r, g, b)
 end
 
-function HtmlText:ParseArgs(newFont, xarg)
-	print("<====xarg = " ..xarg)
+function HtmlText:ParseArgs(node, xarg)
 	string.gsub(xarg, "(%w+)=([\"'])(.-)%2", function(w, _, a)
-		newFont[w] = a
+		node[w] = a
 	end)
 end
 
@@ -97,8 +95,6 @@ function HtmlText:renderNode(xmlText, startIndex)
 
 	if true then
 		ni, j, c, label, xarg, empty = string.find(xmlText, "<(%/?)([%w_:]+)(.-)(%/?)>", i)
-
-
 		if not ni then
 			return
 		end
@@ -121,24 +117,36 @@ function HtmlText:renderNode(xmlText, startIndex)
 
             self._line:pushBackElement(textElement)
 		end	
+
     	label = string.upper(label)
 
     	if label == "FONT" then
-    		if c == "" then
+    		if c == "" then -- start tag
 				local newFont = clone(self._fontList[#self._fontList])
-				local text = string.sub(xmlText, 1, ni - 1);
 				self:ParseArgs(newFont, xarg)
 
 				table.insert(self._fontList, newFont)
 				self:renderNode(xmlText, j + 1)
 				table.remove(self._fontList)
-			elseif c == "/" then
+			elseif c == "/" then -- end tag
 				table.remove(self._fontList)
 				self:renderNode(xmlText, j + 1)
-				
+			end
+		elseif label == "IMG" then
+
+			if c == "" then -- start tag
+				local imgArgs = {}
+				imgArgs.color   = 'ffffff'
+				imgArgs.opacity = 255
+				imgArgs.src     = "icon_vip10.png"
+				self:ParseArgs(imgArgs, xarg)
+
+				local imgElement = ccui.RichElementImage:create(1, hex2Rgb(imgArgs.color), imgArgs.opacity, imgArgs.src)
+				self._line:pushBackElement(imgElement)
 			else
 
 			end
+			self:renderNode(xmlText, j + 1)
 		elseif label == "BR" then
 			self:addNewLine()
 			self:renderNode(xmlText, j + 1)
