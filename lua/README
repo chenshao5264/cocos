@@ -5,3 +5,12 @@ fsm/ 状态机demo
 LayerKeyboard.lua 键盘触发事件
 
 Timer.lua 定时器管理工具
+
+i18n 国际化
+调用见LocalizationManager
+
+debugtool debug窗口
+require "debugtool.init"
+
+utils 常用工具模块
+
