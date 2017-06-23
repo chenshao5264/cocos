@@ -1,0 +1,72 @@
+改动文件 
+1. UIRichText.cpp
+
+RichText::formatText() 中的
+
+case RichElement::Type::TEXT:
+{
+    RichElementText* elmtText = static_cast<RichElementText*>(element);
+    if (FileUtils::getInstance()->isFileExist(elmtText->_fontName))
+    {
+        elementRenderer = Label::createWithTTF(elmtText->_text.c_str(), elmtText->_fontName, elmtText->_fontSize);
+    }
+    else
+    {
+        elementRenderer = Label::createWithSystemFont(elmtText->_text.c_str(), elmtText->_fontName, elmtText->_fontSize);
+    }
+//< 新增 start
+    elementRenderer->setTag(element->getTag());
+    if (element->getTag() > 0) 
+    {
+        int tag = element->getTag();  
+        char temp[64];  
+        std::string str;  
+        sprintf(temp, "%d", tag);  
+        std::string ss(temp);  
+        
+        _canMapClickNodes.insert(ss, elementRenderer);
+    }
+//< 新增 end
+    break;
+}
+
+------------------------------------------
+
+class RichElement 中
+
+//< 新增 start
+int getTag() {return _tag;}
+//< 新增 end
+
+---------------------
+class RichText 中
+
+//< 新增 start
+Map<std::string, Node*> getCanClickNodes(){ return _canMapClickNodes;}
+
+Map<std::string, Node*> _canMapClickNodes;
+
+//< 新增 end
+
+----------------------
+lua_cocos2dx_ui_auto.cpp 中
+
+//< 新增 start
+static int lua_cocos2dx_ui_RichText_getCanClickNodes(lua_State* tolua_S)
+{
+    int argc = 0;
+    cocos2d::ui::RichText* cobj = nullptr;
+    bool ok  = true;
+
+    cobj = (cocos2d::ui::RichText*)tolua_tousertype(tolua_S,1,0);
+
+    cocos2d::Map<std::string, Node*>& ret = cobj->getCanClickNodes();
+    ccmap_string_key_to_luaval(tolua_S, ret);
+
+    return 1;
+}
+//< 新增 end
+
+//< 新增 start
+tolua_function(tolua_S,"getCanClickNodes", lua_cocos2dx_ui_RichText_getCanClickNodes);
+ //< 新增 end
