@@ -19,9 +19,11 @@ local function write2File(loggertype, string)
 	local fileName = string.format("./logger/logger_%s.txt", loggertype)
 
 	local file = io.open(fileName, "a")
-	file:write(os.date("%Y-%m-%d %H:%M:%S") ..": " ..string)
-	file:write("\n")
-	file:close()
+	if file then
+		file:write(os.date("%Y-%m-%d %H:%M:%S") ..": " ..string)
+		file:write("\n")
+		file:close()
+	end
 end
 
 local function createDir()

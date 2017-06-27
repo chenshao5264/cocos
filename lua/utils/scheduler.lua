@@ -21,7 +21,7 @@ function scheduler.unscheduleGlobal(handle)
 end
 
 --- view 移除的时候自动删除view绑定的定时器，无需手动删除定时器
-function sharedScheduler.performWithDelayGlobal(view, listener, time)
+function scheduler.performWithDelayGlobal(view, listener, time)
     local handle
     handle = sharedScheduler:scheduleScriptFunc(function()
         scheduler.unscheduleGlobal(handle)
@@ -37,5 +37,15 @@ function sharedScheduler.performWithDelayGlobal(view, listener, time)
     return handle
 end
 
+function scheduler.scheduleGlobal(view, listener, interval)
+    local handle = sharedScheduler:scheduleScriptFunc(listener, interval, false)
+    if handle and view then
+        view:onNodeEvent("exit", function()
+            scheduler.unscheduleGlobal(handle)
+        end)
+    end
+    return handle
+end
 
-return sharedScheduler
+
+return scheduler

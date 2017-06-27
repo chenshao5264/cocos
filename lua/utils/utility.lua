@@ -13,4 +13,8 @@ function utility.hex2Rgb(strHex)
 	return cc.c3b(r, g, b)
 end
 
+function utility.time()
+    return os.date("*t", os.time())
+end
+
 return utility
