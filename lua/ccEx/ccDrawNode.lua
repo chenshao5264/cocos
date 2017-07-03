@@ -94,12 +94,12 @@ function DrawNode:drawPie(orign, radians, colors, radius, segments)
 		self:drawSolidSector(orign, cc.p(x, y), radius, 0, radians[i] * M_PI / 180, segments, colors[i])
 		beginVec = beginVec + radians[i] * M_PI / 180
 
-		if radians[i] > 0 then
-			local txt = string.format("%.1f%%", radians[i] / 360 * 100)
-			local textPercent = ccui.Text:create(txt, "", 20)
-			middleVec = radians[i] / 2 * M_PI / 180
-			textPercent:setPosition(cc.p(orign.x + radius / 2 * sin(beginVec - middleVec), orign.y + radius / 2 * cos(beginVec - middleVec)))
-			self:addChild(textPercent, 1)
-		end
+		-- if radians[i] > 0 then
+		-- 	local txt = string.format("%.1f%%", radians[i] / 360 * 100)
+		-- 	local textPercent = ccui.Text:create(txt, "", 20)
+		-- 	middleVec = radians[i] / 2 * M_PI / 180
+		-- 	textPercent:setPosition(cc.p(orign.x + radius / 2 * sin(beginVec - middleVec), orign.y + radius / 2 * cos(beginVec - middleVec)))
+		-- 	self:addChild(textPercent, 1)
+		-- end
 	end
 end

@@ -4,8 +4,14 @@
 --
 require "ccEx.ccWidget"
 
+require "ccEx.ccButton"
+
 require "ccEx.ccDrawNode"
 
 require "ccEx.ccGroup"
 
+require "ccEx.ccNode"
+
 cc.RichTextEx = require("ccEx.ccRichText")
+
+cc.HVNode = require("ccEx.ccHVNode")

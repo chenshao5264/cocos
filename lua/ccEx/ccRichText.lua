@@ -16,7 +16,6 @@ local HtmlText = class("HtmlText", function()
 	return ccui.Widget:create()
 end)
 
-
 function HtmlText:ctor()
 	self._font = {
 		face = "",
@@ -48,7 +47,9 @@ end
 function HtmlText:create(htmlString)
 	local ptr = HtmlText.new()
 
-	ptr:renderHtml(htmlString)
+	if htmlString then
+		ptr:renderHtml(htmlString)
+	end
 
 	return ptr
 end

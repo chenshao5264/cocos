@@ -8,33 +8,44 @@ c.Group = c.Group or {}
 
 function c.Group:create(cks, cb, default)
 
-	self._curSelectedIndex = default
-	for i = 1, #cks do
-		local ck = cks[i]
-		ck:setSelected(false)
-		ck:addEventListener(function(obj, eventType)
-			
-			if self._curSelectedIndex and cks[self._curSelectedIndex] and ck ~= cks[self._curSelectedIndex] then
-				cks[self._curSelectedIndex]:setSelected(false)
-			end
+    local function onClick(obj, eventType)
 
-			self._curSelectedIndex = i
+        local ck = obj
+        local i = ck.i
 
-			ck:setSelected(true)
+        if self._curSelectedIndex and cks[self._curSelectedIndex] and ck ~= cks[self._curSelectedIndex] then
+            cks[self._curSelectedIndex]:setSelected(false)
+        end
 
-			if cb then
-				cb(i)
-			end
-		end)
-	end
+        self._curSelectedIndex = i
 
-	if self._curSelectedIndex and cks[self._curSelectedIndex] then
-		cks[self._curSelectedIndex]:setSelected(true)
-	end
+        ck:setSelected(true)
 
-	return self
+        if cb then
+            cb(i)
+        end
+    end
+
+    self._curSelectedIndex = default or 1
+    for i = 1, #cks do
+        local ck = cks[i]
+        ck.i = i
+        ck:setSelected(false)
+
+        if ck.addEventListener then -- checkbox
+            ck:addEventListener(onClick)
+        elseif ck.addClickEventListener then --button
+            ck:addClickEventListener(onClick)
+        end
+    end
+
+    if self._curSelectedIndex and cks[self._curSelectedIndex] then
+        cks[self._curSelectedIndex]:setSelected(true)
+    end
+
+    return self
 end
 
 function c.Group:getSelectedIndex()
-	return self._curSelectedIndex
+    return self._curSelectedIndex
 end
