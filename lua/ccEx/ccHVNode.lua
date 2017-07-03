@@ -14,44 +14,25 @@ local HVNode = class("HVNode", function()
     return cc.Node:create()
 end)
 
-function HVNode:ctor(items, direction, itemsMargin)
+function HVNode:ctor(direction, itemsMargin)
 
-    self._items       = items or {}
+    self._items       = {}
     self._direction   = direction or 0
     self._itemsMargin = itemsMargin or 10
+end
 
-    local itemX
-    local itemSize = items[1]:getContentSize()
-    if direction == 0 then --// 水平
-        itemX = itemSize.width
-    else
-        itemX = itemSize.height
-    end
+function HVNode:setDirection(direction)
+    self._direction = direction or 0
+end
 
-    self._itemX = itemX
-
-    local itemCount = #items
-    local firstPos  = -(itemX + itemsMargin) * (itemCount - 1) / 2
-    if direction == 0 then --// 水平
-        for i  = 1, itemCount do
-            local item = items[i]
-            item:setPositionX(firstPos + (itemX + itemsMargin) * (i - 1))
-            item:setTag(i)
-            self:addChild(item)
-        end
-    else
-        for i  = 1, itemCount do
-            local item = items[i]
-            item:setPositionY(firstPos + (itemX + itemsMargin) * (i - 1))
-            item:setTag(i)
-            self:addChild(item)
-        end
-    end
+function HVNode:setItemsMargin(margin)
+    self._itemsMargin = margin or 10
 end
 
 function HVNode:pushBackCustomBack(item)
     self._items[#self._items + 1] = item
     self:addChild(item)
+    item:setPosition(0, 0)
 
     self:adjust()
 end
@@ -59,20 +40,30 @@ end
 function HVNode:adjust()
     local items       = self._items
     local itemCount   = #self._items    
-    local itemX       = self._itemX
-    local itemsMargin = self._itemsMargin
 
-    local firstPos  = -(itemX + itemsMargin) * (itemCount - 1) / 2
+    if itemCount <= 0 then
+        return
+    end
+
+    local itemX
+    local itemSize = items[1]:getContentSize()
+    if self._direction == 0 then --// 水平
+        itemX = itemSize.width
+    else
+        itemX = itemSize.height
+    end
+
+    local firstPos  = -(itemX + self._itemsMargin) * (itemCount - 1) / 2
     if self._direction == 0 then --// 水平
         for i = 1, itemCount do
             local item = items[i]
-            item:setPositionX(firstPos + (itemX + itemsMargin) * (i - 1))
+            item:setPositionX(firstPos + (itemX + self._itemsMargin) * (i - 1))
             item:setTag(i)
         end
     else
         for i  = 1, itemCount do
             local item = items[i]
-            item:setPositionY(firstPos + (itemX + itemsMargin) * (i - 1))
+            item:setPositionY(firstPos + (itemX + self._itemsMargin) * (i - 1))
             item:setTag(i)
         end
     end
