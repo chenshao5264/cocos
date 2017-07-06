@@ -13,12 +13,11 @@ local BackpackScrollView = class("BackpackScrollView", function()
 end)
 
 function BackpackScrollView:ctor(size)
-    --self:setBackGroundColorType(1)
+   -- self:setBackGroundColorType(1)
     --self:setBackGroundColor(cc.c3b(255, 0, 0))
 
     self:setAnchorPoint(cc.p(0, 1))
     self:setContentSize(size)
-
 end
 
 function BackpackScrollView:addBackpackBox(backpackBox)

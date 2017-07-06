@@ -10,7 +10,7 @@ end)
 -- /**
 --  * [ctor description]
 --  * @param  {[type]} rowItemCount [每行item的数量]
---  * @param  {[type]} direction    [0:水平;1:垂直(暂不支持)]
+--  * @param  {[type]} direction    [0:多行;1:单行]
 --  * @param  {[type]} itemsMargin  [单元格边距]
 --  * @param  {[type]} rowsMargin   [行距]
 --  * @return {[type]}              [node]
@@ -22,7 +22,7 @@ function BackpackBox:ctor(rowItemCount, direction, itemsMargin, rowsMargin)
 
     self._items        = {}
     self._rowItemCount = rowItemCount or 4
-    self._direction    = 0
+    self._direction    = direction or 0
     self._itemsMargin  = itemsMargin or 0
     self._rowsMargin   = rowsMargin or 0
 
@@ -57,35 +57,33 @@ function BackpackBox:adjust()
 
     local itemSize = items[1]:getContentSize()
 
-    if self._direction == 0 then
-        local itemWidth  = itemSize.width + self._itemsMargin
-        local itemHeight = itemSize.height + self._rowsMargin
-        local firstPos   = cc.p(itemSize.width / 2 + self._itemsMargin, -(itemSize.height / 2 + self._rowsMargin))
+    local itemWidth  = itemSize.width + self._itemsMargin
+    local itemHeight = itemSize.height + self._rowsMargin
+    local firstPos   = cc.p(itemSize.width / 2 + self._itemsMargin, -(itemSize.height / 2 + self._rowsMargin))
 
-        local itemX = firstPos.x - itemWidth
-        local itemY = firstPos.y + itemHeight
-        for i = 1, itemCount do
-            local item = items[i]
-            item:setTag(i)
-            if i % self._rowItemCount == 1 then
-                itemX = firstPos.x
-                itemY = itemY - itemHeight
-            else
-                itemX = itemX + itemWidth
-                itemY = itemY
-            end
-
-            if self._isAnimation then
-                if item:getPositionX() ~= itemX or item:getPositionY() ~= itemY then
-                    local moveTo = cc.MoveTo:create(0.3, cc.p(itemX, itemY))
-                    item:stopAllActions()
-                    item:runAction(moveTo)
-               end
-            else
-                item:setPositionX(itemX)
-                item:setPositionY(itemY)
-            end    
+    local itemX = firstPos.x - itemWidth
+    local itemY = firstPos.y + itemHeight
+    for i = 1, itemCount do
+        local item = items[i]
+        item:setTag(i)
+        if i % self._rowItemCount == 1 then
+            itemX = firstPos.x
+            itemY = itemY - itemHeight
+        else
+            itemX = itemX + itemWidth
+            itemY = itemY
         end
+
+        if self._isAnimation then
+            if item:getPositionX() ~= itemX or item:getPositionY() ~= itemY then
+                local moveTo = cc.MoveTo:create(0.3, cc.p(itemX, itemY))
+                item:stopAllActions()
+                item:runAction(moveTo)
+           end
+        else
+            item:setPositionX(itemX)
+            item:setPositionY(itemY)
+        end    
     end
 
     if self.scrollView then
@@ -132,10 +130,17 @@ function BackpackBox:getContentSize()
         local itemWidth  = itemSize.width + self._itemsMargin
         local itemHeight = itemSize.height + self._rowsMargin
 
-        return {
-            width  = itemWidth * self._rowItemCount,
-            height = itemHeight * rowCount
-        }
+        if self._direction == 0 then
+            return {
+                width  = itemWidth * self._rowItemCount,
+                height = itemHeight * rowCount
+            }
+        else
+            return {
+                width  = itemWidth * #self._items,
+                height = itemHeight * rowCount
+            }
+        end
     end
 
     return {
