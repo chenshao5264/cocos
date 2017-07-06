@@ -12,6 +12,10 @@ require "ccEx.ccGroup"
 
 require "ccEx.ccNode"
 
-cc.RichTextEx = require("ccEx.ccRichText")
+cc.RichTextEx  = require("ccEx.ccRichText")
 
-cc.HVNode = require("ccEx.ccHVNode")
+cc.HVNode      = require("ccEx.ccHVNode")
+
+cc.BackpackBox = require("ccEx.ccBackpackBox")
+
+cc.BackpackBoxScrollView = require("ccEx.BackpackScrollView")
