@@ -47,6 +47,14 @@ function BackpackBox:pushBackCustomBack(item)
     self:adjust()
 end
 
+function BackpackBox:getItemsCount()
+    return #self._items
+end
+
+function BackpackBox:getItems()
+    return self._items
+end
+
 function BackpackBox:adjust()
     local items       = self._items
     local itemCount   = #self._items    
@@ -59,7 +67,7 @@ function BackpackBox:adjust()
 
     local itemWidth  = itemSize.width + self._itemsMargin
     local itemHeight = itemSize.height + self._rowsMargin
-    local firstPos   = cc.p(itemSize.width / 2 + self._itemsMargin, -(itemSize.height / 2 + self._rowsMargin))
+    local firstPos   = cc.p(itemSize.width / 2, -(itemSize.height / 2))
 
     local itemX = firstPos.x - itemWidth
     local itemY = firstPos.y + itemHeight
