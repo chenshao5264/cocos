@@ -29,6 +29,12 @@ function BackpackBox:ctor(rowItemCount, direction, itemsMargin, rowsMargin)
     self._selectedListener = nil
     self._isAnimation      = false
     self._defaultItem      = nil
+
+    self._margins = {left = 0, top = 0}
+end
+
+function BackpackBox:setMargin(margin)
+    self._margins = margin
 end
 
 function BackpackBox:setDirection(direction)
@@ -45,6 +51,10 @@ function BackpackBox:pushBackCustomBack(item)
     item:setPosition(0, 0)
 
     self:adjust()
+end
+
+function BackpackBox:getItemByIndex(idx)
+    return self._items[idx]
 end
 
 function BackpackBox:getItemsCount()
@@ -67,7 +77,7 @@ function BackpackBox:adjust()
 
     local itemWidth  = itemSize.width + self._itemsMargin
     local itemHeight = itemSize.height + self._rowsMargin
-    local firstPos   = cc.p(itemSize.width / 2, -(itemSize.height / 2))
+    local firstPos   = cc.p(itemSize.width / 2 + self._margins.left, -(itemSize.height / 2) - self._margins.top)
 
     local itemX = firstPos.x - itemWidth
     local itemY = firstPos.y + itemHeight
