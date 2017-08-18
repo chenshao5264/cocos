@@ -4,46 +4,29 @@
 --
 local Widget = ccui.Widget or {}
 
-local function grayNode ( node )
-	local vertDefaultSource = "\n" ..
-		"attribute vec4 a_position; \n" ..
-		"attribute vec2 a_texCoord; \n" ..
-		"attribute vec4 a_color; \n" ..                                                     
-		"#ifdef GL_ES  \n" ..
-		"varying lowp vec4 v_fragmentColor;\n" ..
-		"varying mediump vec2 v_texCoord;\n" ..
-		"#else                      \n" ..
-		"varying vec4 v_fragmentColor; \n" ..
-		"varying vec2 v_texCoord;  \n" ..
-		"#endif    \n" ..
-		"void main() \n" ..
-		"{\n" ..
-		"gl_Position = CC_PMatrix * a_position; \n" ..
-		"v_fragmentColor = a_color;\n" ..
-		"v_texCoord = a_texCoord;\n" ..
-		"}"
+function grayNode ( node )
 
-	local pszFragSource = "#ifdef GL_ES \n" ..
-		"precision mediump float; \n" ..
-		"#endif \n" ..
-		"varying vec4 v_fragmentColor; \n" ..
-		"varying vec2 v_texCoord; \n" ..
-		"void main(void) \n" ..
-		"{ \n" ..
-		"vec4 c = texture2D(CC_Texture0, v_texCoord); \n" ..
-		"gl_FragColor.x = 0.8*c.r; \n" ..
-		"gl_FragColor.y = 0.8*c.g; \n" ..
-		"gl_FragColor.z = 0.8*c.b; \n" ..
-		"gl_FragColor.w = c.w; \n" ..
-		"}"
+	local pProgram = cc.GLProgram:createWithFilenames(
+        "shader/defalut.vert", "shader/flowing.frag")
 
-	local pProgram = cc.GLProgram:createWithByteArrays(vertDefaultSource, pszFragSource)
 	pProgram:bindAttribLocation(cc.ATTRIBUTE_NAME_POSITION, cc.VERTEX_ATTRIB_POSITION)
 	pProgram:bindAttribLocation(cc.ATTRIBUTE_NAME_COLOR , cc.VERTEX_ATTRIB_COLOR )
 	pProgram:bindAttribLocation(cc.ATTRIBUTE_NAME_TEX_COORD , cc.VERTEX_ATTRIB_FLAG_TEX_COORDS )
-	pProgram:link ( )
-	pProgram:updateUniforms ( )
-	node:getVirtualRenderer():getSprite():setGLProgram(pProgram)
+	pProgram:link()
+	pProgram:updateUniforms()
+	
+	local pProgramState = cc.GLProgramState:getOrCreateWithGLProgram(pProgram)
+	pProgramState:setUniformTexture("u_texture", cc.Director:getInstance():getTextureCache():addImage("images/kidnap.png"))
+	pProgramState:setUniformFloat("factor", 1.5)
+	pProgramState:setUniformFloat("width", 0.8)
+	pProgramState:setUniformVec3("color", cc.vec3(1, 0, 0))
+
+	node:setGLProgram(pProgram)
+
+	-- local scheduler = require("utils.scheduler")
+	-- scheduler.scheduleGlobal(function() 
+
+	-- end)
 end
 
 local function removeGray()
